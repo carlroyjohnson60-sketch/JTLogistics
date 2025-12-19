@@ -140,8 +140,8 @@ partners:
         use_sftp: true
         payload_file: "Outbound/GNC/06GNCOutboundFile/payload.json"
         local_output_dir: "Outbound/GNC/06GNCOutboundFile/Processed"
-        output_file_name: "06GNCOutboundFile_{datetime}.dat"
-        filename_pattern: "06GNCOutboundFile_{datetime}.dat"
+        output_file_name: "06GNCOutboundFile_{datetime}.csv"
+        filename_pattern: "06GNCOutboundFile_{datetime}.csv"
         converter: "Outbound/GNC/06GNCOutboundFile/GNCJsonToDatConverterSalesOrderGet.py"
         sftp:
           remote_output_dir: "/Outgoing"
