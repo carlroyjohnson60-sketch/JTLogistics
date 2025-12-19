@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "",
+      "carrier_service": "",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "ATLANTA ACE HARDWARE 18599",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "12519 STATE ST",
+          "line_2": "",
+          "city": "ATLANTA",
+          "state": "MI",
+          "postal_code": "49709",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "ATLANTA",
+          "middle_name": "",
+          "last_name": "ACE HARDWARE 18599",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008064
+        },
+        {
+          "type": "Billing",
+          "name": "ATLANTA ACE HARDWARE 18599",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "12519 STATE ST",
+          "line_2": "",
+          "city": "",
+          "state": "",
+          "postal_code": "",
+          "country": "",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "ATLANTA",
+          "middle_name": "",
+          "last_name": "ACE HARDWARE 18599",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008064
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 0,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 100008064,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

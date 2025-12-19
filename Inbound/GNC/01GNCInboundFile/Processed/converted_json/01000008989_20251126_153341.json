@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "00004989",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "GRND",
+      "carrier_service": "GRND",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "Greg Albers",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "Life Storage #034",
+          "line_2": "5311A Bush River Rd",
+          "city": "Columbia",
+          "state": "SC",
+          "postal_code": "29212",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Greg",
+          "middle_name": "",
+          "last_name": "Albers",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000008989
+        },
+        {
+          "type": "Billing",
+          "name": "Greg Albers",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "Life Storage #034",
+          "line_2": "5311A Bush River Rd",
+          "city": "Columbia",
+          "state": "SC",
+          "postal_code": "29212",
+          "country": "US",
+          "lookup": "",
+          "phone": "8503241731",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Greg",
+          "middle_name": "",
+          "last_name": "Albers",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000008989
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "57914",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 10,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000008989,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "00004989",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "00004971",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "GRND",
+      "carrier_service": "GRND",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "Walmart 1183",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "2401 Augusta Rd.",
+          "line_2": "",
+          "city": "West Columbiai",
+          "state": "SC",
+          "postal_code": "29169",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Walmart",
+          "middle_name": "",
+          "last_name": "1183",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004971
+        },
+        {
+          "type": "Billing",
+          "name": "Walmart 1183",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "2401 Augusta Rd.",
+          "line_2": "",
+          "city": "West Columbiai",
+          "state": "SC",
+          "postal_code": "29169",
+          "country": "US",
+          "lookup": "",
+          "phone": "8436704322",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Walmart",
+          "middle_name": "",
+          "last_name": "1183",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004971
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "58029",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 1,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000004971,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "00004971",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

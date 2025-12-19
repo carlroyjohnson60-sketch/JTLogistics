@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "00004973",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "GRND",
+      "carrier_service": "GRND",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "Walmart 3367",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "4920 Centre Pointe Dr.",
+          "line_2": "",
+          "city": "North Charleston",
+          "state": "SC",
+          "postal_code": "29418",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Walmart",
+          "middle_name": "",
+          "last_name": "3367",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004973
+        },
+        {
+          "type": "Billing",
+          "name": "Walmart 3367",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "4920 Centre Pointe Dr.",
+          "line_2": "",
+          "city": "North Charleston",
+          "state": "SC",
+          "postal_code": "29418",
+          "country": "US",
+          "lookup": "",
+          "phone": "8436704322",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Walmart",
+          "middle_name": "",
+          "last_name": "3367",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004973
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "58029",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 1,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000004973,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "00004973",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "",
+      "carrier_service": "",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "HURST ACE HARDWARE/SPORTS 5738",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "165 S MAIN ST",
+          "line_2": "",
+          "city": "CEDAR CITY",
+          "state": "UT",
+          "postal_code": "84720",
+          "country": "US",
+          "lookup": "",
+          "phone": "4355869335",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "HURST",
+          "middle_name": "",
+          "last_name": "ACE HARDWARE/SPORTS 5738",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008043
+        },
+        {
+          "type": "Billing",
+          "name": "HURST ACE HARDWARE/SPORTS 5738",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "165 S MAIN ST",
+          "line_2": "",
+          "city": "",
+          "state": "",
+          "postal_code": "",
+          "country": "",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "HURST",
+          "middle_name": "",
+          "last_name": "ACE HARDWARE/SPORTS 5738",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008043
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 0,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 100008043,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

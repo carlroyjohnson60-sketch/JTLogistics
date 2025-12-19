@@ -1,0 +1,6 @@
+{
+  "error": {
+    "code": 500,
+    "message": "Error: Failed to create sales order. The exception is: Error: Failed to translate orders from public to footprint. The exception is: Failed to translate order lines from public to footprint. The exception is: Multiple packagings found for material '77897'."
+  }
+}

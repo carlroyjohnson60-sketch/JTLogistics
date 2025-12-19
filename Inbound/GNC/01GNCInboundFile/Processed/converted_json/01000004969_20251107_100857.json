@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "00004969",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "GRND",
+      "carrier_service": "GRND",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "HOLD FOR MARS WRIGLEY REP HOLD",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "4600 E Main ST",
+          "line_2": "",
+          "city": "Farmington",
+          "state": "NM",
+          "postal_code": "87402",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "HOLD",
+          "middle_name": "",
+          "last_name": "FOR MARS WRIGLEY REP HOLD",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004969
+        },
+        {
+          "type": "Billing",
+          "name": "HOLD FOR MARS WRIGLEY REP HOLD",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "4600 E Main ST",
+          "line_2": "",
+          "city": "Farmington",
+          "state": "NM",
+          "postal_code": "87402",
+          "country": "US",
+          "lookup": "",
+          "phone": "8066766150",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "HOLD",
+          "middle_name": "",
+          "last_name": "FOR MARS WRIGLEY REP HOLD",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004969
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "58036",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 1,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000004969,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "00004969",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

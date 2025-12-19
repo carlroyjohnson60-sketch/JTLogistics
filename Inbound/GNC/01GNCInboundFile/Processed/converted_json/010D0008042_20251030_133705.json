@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "",
+      "carrier_service": "",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "GREAT FALLS ACE HARDWARE 11041",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "3527 10TH AVE S",
+          "line_2": "",
+          "city": "GREAT FALLS",
+          "state": "MT",
+          "postal_code": "59405",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "GREAT",
+          "middle_name": "",
+          "last_name": "FALLS ACE HARDWARE 11041",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008042
+        },
+        {
+          "type": "Billing",
+          "name": "GREAT FALLS ACE HARDWARE 11041",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "3527 10TH AVE S",
+          "line_2": "",
+          "city": "",
+          "state": "",
+          "postal_code": "",
+          "country": "",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "GREAT",
+          "middle_name": "",
+          "last_name": "FALLS ACE HARDWARE 11041",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008042
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 0,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 100008042,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

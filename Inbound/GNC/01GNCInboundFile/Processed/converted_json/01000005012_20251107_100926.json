@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "00005012",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "GRND",
+      "carrier_service": "GRND",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "Food Bazaar 49",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "11110 Flatlands Ave.",
+          "line_2": "",
+          "city": "Brooklyn",
+          "state": "NY",
+          "postal_code": "11207",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Food",
+          "middle_name": "",
+          "last_name": "Bazaar 49",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000005012
+        },
+        {
+          "type": "Billing",
+          "name": "Food Bazaar 49",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "11110 Flatlands Ave.",
+          "line_2": "",
+          "city": "Brooklyn",
+          "state": "NY",
+          "postal_code": "11207",
+          "country": "US",
+          "lookup": "",
+          "phone": "8503241731",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Food",
+          "middle_name": "",
+          "last_name": "Bazaar 49",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000005012
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "58036",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 1,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000005012,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "00005012",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+
+[2025-11-13T13:53:00.333577] Error in file: 20251031180006UO10006287DLXOUTPOS.dat
+Line 3: Missing part number -> LINE_SEG            000100010000000012                                                                                                            
+Line 4: Missing part number -> LINE_SEG            000200010000000001                                                                                                            
+Line 5: Missing part number -> LINE_SEG            000300010000002086                                                                                                            
+--------------------------------------------------------------------------------
+
+[2025-11-14T10:06:36.090231] Error in file: 20251031180006UO10006287DLXOUTPOS.dat
+Line 3: Missing part number -> LINE_SEG            000100010000000012                                                                                                            
+Line 4: Missing part number -> LINE_SEG            000200010000000001                                                                                                            
+Line 5: Missing part number -> LINE_SEG            000300010000002086                                                                                                            
+--------------------------------------------------------------------------------

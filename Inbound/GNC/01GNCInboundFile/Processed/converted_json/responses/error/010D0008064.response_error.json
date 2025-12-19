@@ -1,0 +1,9 @@
+{
+  "status_code": 500,
+  "response": {
+    "error": {
+      "code": 500,
+      "message": "Error: Failed to create sales order. The exception is: Error: Failed to translate orders from public to footprint. The exception is: Failed to translate order lines from public to footprint. The exception is: Must specify a material for the order line using the 'material' and/or 'upc' fields."
+    }
+  }
+}

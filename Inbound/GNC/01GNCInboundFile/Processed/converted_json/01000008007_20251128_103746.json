@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "00005007",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "GRND",
+      "carrier_service": "GRND",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "Corinna Davis",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "1181 Us Highway 158 Bus W",
+          "line_2": "",
+          "city": "Norlina",
+          "state": "NC",
+          "postal_code": "27563",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Corinna",
+          "middle_name": "",
+          "last_name": "Davis",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000008007
+        },
+        {
+          "type": "Billing",
+          "name": "Corinna Davis",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "1181 Us Highway 158 Bus W",
+          "line_2": "",
+          "city": "Norlina",
+          "state": "NC",
+          "postal_code": "27563",
+          "country": "US",
+          "lookup": "",
+          "phone": "2522135324",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Corinna",
+          "middle_name": "",
+          "last_name": "Davis",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000008007
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "58033",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 1,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000008007,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "00005007",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

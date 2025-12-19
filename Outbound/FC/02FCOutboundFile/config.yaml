@@ -1,0 +1,28 @@
+auth:
+  token_url: "https://login.microsoftonline.com/8d354a2c-965a-4c6f-af22-d707a39c0492/oauth2/v2.0/token"
+  client_id:  "8aa5c656-e7ec-423a-9436-ef8ab3cd2eef"
+  client_secret:  "sFG8Q~u5gPdx8ipVe3DkwXsZPrBo9R-~KVsx4dct"
+  scope: "api://acbf078d-4eb8-477b-b0d8-62bb46bdbc37/.default"
+
+api:
+  sales_order_get_url: "https://jtl-footprint-api.wavelength.host/api/sales_orders/get"
+
+paths:
+  data_dir: "C:/Users/carl.johnson/PythonCode/Outbound/JT/02JTOutboundFile"
+  output_dir: "C:/Users/carl.johnson/PythonCode/Outbound/JT/02JTOutboundFile/Processed/converted_json/outputcsv"
+  response_dir: "C:/Users/carl.johnson/PythonCode/Outbound/JT/02JTOutboundFile/Processed/converted_json/responses"
+
+sftp:
+  gnc:
+    host: "sftp.jtlogistics.com"
+    port: 22
+    username: "dtx-gnc"
+    password: "&c6BsRHtATnH"
+    remote_dir: "/Incoming"
+  jt:
+    host: "sftp.jtlogistics.com"
+    port: 22
+    username: "dtx-fc"
+    password: "NjntnT?X7kEd"
+    remote_dir: "/Incoming"
+

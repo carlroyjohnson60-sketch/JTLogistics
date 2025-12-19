@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "",
+      "carrier_service": "",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "ALLRED'S ACE HDWE OREM 17874",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "1550 N STATE ST",
+          "line_2": "",
+          "city": "OREM",
+          "state": "UT",
+          "postal_code": "84057",
+          "country": "US",
+          "lookup": "",
+          "phone": "3855332221",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "ALLRED'S",
+          "middle_name": "",
+          "last_name": "ACE HDWE OREM 17874",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008034
+        },
+        {
+          "type": "Billing",
+          "name": "ALLRED'S ACE HDWE OREM 17874",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "1550 N STATE ST",
+          "line_2": "",
+          "city": "",
+          "state": "",
+          "postal_code": "",
+          "country": "",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "ALLRED'S",
+          "middle_name": "",
+          "last_name": "ACE HDWE OREM 17874",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008034
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 0,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 100008034,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

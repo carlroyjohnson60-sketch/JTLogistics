@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "00004977",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "GRND",
+      "carrier_service": "GRND",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "CubeSmart Self Storage Unit 22",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "CubeSmart Self Storage",
+          "line_2": "6325 Allentown Blvd",
+          "city": "Harrisburg",
+          "state": "PA",
+          "postal_code": "17112",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "CubeSmart",
+          "middle_name": "",
+          "last_name": "Self Storage Unit 22",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004977
+        },
+        {
+          "type": "Billing",
+          "name": "CubeSmart Self Storage Unit 22",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "CubeSmart Self Storage",
+          "line_2": "6325 Allentown Blvd",
+          "city": "Harrisburg",
+          "state": "PA",
+          "postal_code": "17112",
+          "country": "US",
+          "lookup": "",
+          "phone": "2402171642",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "CubeSmart",
+          "middle_name": "",
+          "last_name": "Self Storage Unit 22",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004977
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "58030",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 5,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000004977,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "00004977",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

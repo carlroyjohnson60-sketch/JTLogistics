@@ -1,0 +1,5699 @@
+{
+  "orders": [
+    {
+      "addresses": [],
+      "carrier": "Estes",
+      "created_on": "2025-02-28T18:27:13.9333333Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-02-28T18:32:47.663Z",
+      "lookup": "103",
+      "notes": "Test",
+      "order_class": "PO",
+      "order_id": 103,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "Each Test-GLot",
+          "material": "Each Test",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 50,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "Each Test-GLot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "Each Test",
+              "packaging": "EA",
+              "base_amount": 50,
+              "packaged_amount": 50,
+              "net_weight": 250,
+              "gross_weight": 252.5,
+              "weight_uom": "lb"
+            }
+          ]
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 2,
+          "lot": "Case Test-GLot",
+          "material": "Case Test",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 50,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "Case Test-GLot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "Case Test",
+              "packaging": "CA",
+              "base_amount": 50,
+              "packaged_amount": 50,
+              "net_weight": 50,
+              "gross_weight": 50,
+              "weight_uom": "lb"
+            }
+          ]
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 3,
+          "lot": "Slap Ship-GLot",
+          "material": "Slap Ship",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 50,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "Slap Ship-GLot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "Slap Ship",
+              "packaging": "CA",
+              "base_amount": 50,
+              "packaged_amount": 50,
+              "net_weight": 50,
+              "gross_weight": 50,
+              "weight_uom": "lb"
+            }
+          ]
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "IB Test DOC",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 103,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": "2025-02-28T22:00:00Z",
+          "expected_warehouse": "2301",
+          "lookup": "103",
+          "notes": "Test\r\nShipment Closed by [JTL FP Service], on [2/28/2025 6:32:47 PM]",
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Completed",
+      "vendor_reference": "Steves trucking",
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 1622,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "Each Test",
+          "notes": null
+        },
+        {
+          "task_id": 1623,
+          "operation_code": "Receiving",
+          "order_line_number": 2,
+          "status": "Completed",
+          "material": "Case Test",
+          "notes": null
+        },
+        {
+          "task_id": 1624,
+          "operation_code": "Receiving",
+          "order_line_number": 3,
+          "status": "Completed",
+          "material": "Slap Ship",
+          "notes": null
+        },
+        {
+          "task_id": 1626,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "Each Test",
+          "notes": null
+        },
+        {
+          "task_id": 1628,
+          "operation_code": "Receiving",
+          "order_line_number": 2,
+          "status": "Completed",
+          "material": "Case Test",
+          "notes": null
+        },
+        {
+          "task_id": 1630,
+          "operation_code": "Receiving",
+          "order_line_number": 3,
+          "status": "Completed",
+          "material": "Slap Ship",
+          "notes": null
+        }
+      ],
+      "shipped_contents": [
+        {
+          "material": "Each Test",
+          "packaging": "EA",
+          "base_amount": 50,
+          "packaged_amount": 50,
+          "net_weight": 250,
+          "gross_weight": 252.5,
+          "weight_uom": "lb"
+        },
+        {
+          "material": "Case Test",
+          "packaging": "CA",
+          "base_amount": 50,
+          "packaged_amount": 50,
+          "net_weight": 50,
+          "gross_weight": 50,
+          "weight_uom": "lb"
+        },
+        {
+          "material": "Slap Ship",
+          "packaging": "CA",
+          "base_amount": 50,
+          "packaged_amount": 50,
+          "net_weight": 50,
+          "gross_weight": 50,
+          "weight_uom": "lb"
+        }
+      ]
+    },
+    {
+      "addresses": [],
+      "created_on": "2025-03-06T20:04:34.27Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-03-07T01:07:17.427Z",
+      "lookup": "114-RMA",
+      "notes": "Return order created for RMA of outbound order '114'",
+      "order_class": "InRMA",
+      "order_id": 119,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "Case Test-GLot",
+          "material": "Case Test",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 6,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "Case Test-GLot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "Case Test",
+              "packaging": "CA",
+              "base_amount": 6,
+              "packaged_amount": 6,
+              "net_weight": 0,
+              "gross_weight": 0,
+              "weight_uom": null
+            }
+          ]
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 2,
+          "lot": "Each Test-GLot",
+          "material": "Each Test",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 3,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "Each Test-GLot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "Each Test",
+              "packaging": "EA",
+              "base_amount": 3,
+              "packaged_amount": 3,
+              "net_weight": 0,
+              "gross_weight": 0,
+              "weight_uom": null
+            }
+          ]
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 3,
+          "lot": "Slap Ship-GLot",
+          "material": "Slap Ship",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 5,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "Slap Ship-GLot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "Slap Ship",
+              "packaging": "CA",
+              "base_amount": 5,
+              "packaged_amount": 5,
+              "net_weight": 0,
+              "gross_weight": 0,
+              "weight_uom": null
+            }
+          ]
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": null,
+      "project": "JTL Test",
+      "requested_delivery_date": "2025-03-07T01:04:33.933Z",
+      "shipments": [
+        {
+          "shipment_id": 119,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "114-RMA",
+          "notes": "Shipment Closed by [stephen.schumaker], on [3/7/2025 1:07:17 AM]",
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Completed",
+      "vendor_reference": "114",
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 10414,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "Case Test",
+          "notes": null
+        },
+        {
+          "task_id": 10415,
+          "operation_code": "Receiving",
+          "order_line_number": 2,
+          "status": "Completed",
+          "material": "Each Test",
+          "notes": null
+        },
+        {
+          "task_id": 10416,
+          "operation_code": "Receiving",
+          "order_line_number": 3,
+          "status": "Completed",
+          "material": "Slap Ship",
+          "notes": null
+        },
+        {
+          "task_id": 10417,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "RgaValidation"
+        }
+      ],
+      "shipped_contents": [
+        {
+          "material": "Case Test",
+          "packaging": "CA",
+          "base_amount": 6,
+          "packaged_amount": 6,
+          "net_weight": 0,
+          "gross_weight": 0,
+          "weight_uom": null
+        },
+        {
+          "material": "Each Test",
+          "packaging": "EA",
+          "base_amount": 3,
+          "packaged_amount": 3,
+          "net_weight": 0,
+          "gross_weight": 0,
+          "weight_uom": null
+        },
+        {
+          "material": "Slap Ship",
+          "packaging": "CA",
+          "base_amount": 5,
+          "packaged_amount": 5,
+          "net_weight": 0,
+          "gross_weight": 0,
+          "weight_uom": null
+        }
+      ]
+    },
+    {
+      "addresses": [],
+      "created_on": "2025-03-06T20:08:32.7166667Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "118-RMA",
+      "notes": "Return order created for RMA of outbound order '118'",
+      "order_class": "InRMA",
+      "order_id": 120,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "Case Test-GLot",
+          "material": "Case Test",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 2,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Created",
+          "upc": null,
+          "vendor_lot": "Case Test-GLot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 2,
+          "lot": "Each Test-GLot",
+          "material": "Each Test",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 2,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Created",
+          "upc": null,
+          "vendor_lot": "Each Test-GLot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": null,
+      "project": "JTL Test",
+      "requested_delivery_date": "2025-03-07T01:08:32.637Z",
+      "shipments": [
+        {
+          "shipment_id": 120,
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "118-RMA",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Created",
+      "vendor_reference": "118",
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 10428,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Planned",
+          "material": "Case Test",
+          "notes": null
+        },
+        {
+          "task_id": 10429,
+          "operation_code": "Receiving",
+          "order_line_number": 2,
+          "status": "Planned",
+          "material": "Each Test",
+          "notes": null
+        },
+        {
+          "task_id": 10430,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "RgaValidation"
+        }
+      ]
+    },
+    {
+      "addresses": [],
+      "created_on": "2025-05-05T18:40:18.84Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-05-06T20:44:31.51Z",
+      "lookup": "256",
+      "notes": null,
+      "order_class": "PO",
+      "order_id": 256,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "Case Test-GLot",
+          "material": "Case Test",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 50,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "Case Test-GLot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "Case Test",
+              "packaging": "CA",
+              "base_amount": 50,
+              "packaged_amount": 50,
+              "net_weight": 50,
+              "gross_weight": 50,
+              "weight_uom": "lb"
+            }
+          ]
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": null,
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 268,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "256",
+          "notes": "Shipment Closed by [JTL FP Service], on [5/6/2025 8:44:31 PM]",
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Completed",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 47998,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "Case Test",
+          "notes": null
+        },
+        {
+          "task_id": 48075,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "Case Test",
+          "notes": null
+        }
+      ],
+      "shipped_contents": [
+        {
+          "material": "Case Test",
+          "packaging": "CA",
+          "base_amount": 50,
+          "packaged_amount": 50,
+          "net_weight": 50,
+          "gross_weight": 50,
+          "weight_uom": "lb"
+        }
+      ]
+    },
+    {
+      "addresses": [],
+      "carrier": "Estes",
+      "created_on": "2025-05-12T11:04:00.86Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-05-12T11:40:59.65Z",
+      "lookup": "288",
+      "notes": null,
+      "order_class": "PO",
+      "order_id": 288,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "6490",
+          "material": "Food001",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 100,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "6490",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "Food001",
+              "packaging": "EA",
+              "base_amount": 100,
+              "packaged_amount": 100,
+              "net_weight": 100,
+              "gross_weight": 100,
+              "weight_uom": "lb"
+            }
+          ]
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "Test00254",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 301,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": "2025-05-13T00:00:00Z",
+          "expected_warehouse": "2301",
+          "lookup": "288",
+          "notes": "Shipment Closed by [JTL FP Service], on [5/12/2025 11:40:59 AM]",
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Completed",
+      "vendor_reference": "74638746",
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 48181,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "Food001",
+          "notes": null
+        },
+        {
+          "task_id": 48183,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "Food001",
+          "notes": null
+        },
+        {
+          "task_id": 48185,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "Food001",
+          "notes": null
+        }
+      ],
+      "shipped_contents": [
+        {
+          "material": "Food001",
+          "packaging": "EA",
+          "base_amount": 100,
+          "packaged_amount": 100,
+          "net_weight": 100,
+          "gross_weight": 100,
+          "weight_uom": "lb"
+        }
+      ]
+    },
+    {
+      "addresses": [],
+      "created_on": "2025-05-12T11:23:51.4766667Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "299",
+      "notes": null,
+      "order_class": "PO",
+      "order_id": 289,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": null,
+          "material": "Food001",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 100,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Created",
+          "upc": null,
+          "vendor_lot": null,
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "87634582",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 302,
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "299",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Created",
+      "vendor_reference": "17625346",
+      "warehouse": "2301",
+      "tasks": []
+    },
+    {
+      "addresses": [],
+      "created_on": "2025-05-12T11:49:34.1933333Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-05-12T11:49:51.027Z",
+      "lookup": "290",
+      "notes": null,
+      "order_class": "PO",
+      "order_id": 290,
+      "order_lines": [],
+      "owner": "JTL Test",
+      "owner_reference": null,
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 303,
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "290",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Cancelled",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": []
+    },
+    {
+      "addresses": [],
+      "created_on": "2025-05-15T14:23:30.23Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "48069982",
+      "notes": null,
+      "order_class": "PO",
+      "order_id": 301,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": null,
+          "material": "RCTest",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 480,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Created",
+          "upc": null,
+          "vendor_lot": null,
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 2,
+          "lot": null,
+          "material": "RCTest",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 480,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Created",
+          "upc": null,
+          "vendor_lot": null,
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": null,
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 314,
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "48069982",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Created",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": []
+    },
+    {
+      "addresses": [],
+      "created_on": "2025-05-15T16:30:02.7866667Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "IN-WT-1",
+      "notes": "Created for Warehouse Transfer [1]",
+      "order_class": "InWHTR",
+      "order_id": 303,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTCS-Glot",
+          "material": "TOMTESTCS",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 54,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Working",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": null,
+      "project": "JTL Test",
+      "requested_delivery_date": "2025-05-15T16:30:02.75Z",
+      "shipments": [
+        {
+          "shipment_id": 316,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "IN-WT-1",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Created",
+      "vendor_reference": null,
+      "warehouse": null,
+      "tasks": [
+        {
+          "task_id": 52218,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Planned",
+          "material": "TOMTESTCS",
+          "notes": null
+        },
+        {
+          "task_id": 52219,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Planned",
+          "material": "TOMTESTCS",
+          "notes": null
+        },
+        {
+          "task_id": 52220,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Planned",
+          "material": "TOMTESTCS",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "addresses": [],
+      "created_on": "2025-05-21T10:44:56.2733333Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-05-21T13:29:32.27Z",
+      "lookup": "330",
+      "notes": "Notes go here",
+      "order_class": "PO",
+      "order_id": 330,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTEST0001-GLot",
+          "material": "TOMTESTEA",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 3500,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTEST0001-GLot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTEA",
+              "packaging": "EA",
+              "base_amount": 3500,
+              "packaged_amount": 3500,
+              "net_weight": 350,
+              "gross_weight": 350,
+              "weight_uom": "lb"
+            }
+          ]
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 2,
+          "lot": "TOMTESTEA2-Glot",
+          "material": "TOMTESTEA2",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 5280,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTEA2-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTEA2",
+              "packaging": "EA",
+              "base_amount": 5280,
+              "packaged_amount": 5280,
+              "net_weight": 1320,
+              "gross_weight": 1320,
+              "weight_uom": "lb"
+            }
+          ]
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 3,
+          "lot": "TOMTESTPK-Glot",
+          "material": "TOMTESTPK",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 1200,
+          "packaging": "PK",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTPK-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTPK",
+              "packaging": "PK",
+              "base_amount": 1200,
+              "packaged_amount": 1200,
+              "net_weight": 600,
+              "gross_weight": 600,
+              "weight_uom": "lb"
+            }
+          ]
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 4,
+          "lot": "TOMTESTPK2-Glot",
+          "material": "TOMTESTPK2",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 600,
+          "packaging": "PK",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTPK2-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTPK2",
+              "packaging": "PK",
+              "base_amount": 600,
+              "packaged_amount": 600,
+              "net_weight": 300,
+              "gross_weight": 300,
+              "weight_uom": "lb"
+            }
+          ]
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 5,
+          "lot": "TOMTESTCS-Glot",
+          "material": "TOMTESTCS",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 36,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTCS",
+              "packaging": "CA",
+              "base_amount": 36,
+              "packaged_amount": 36,
+              "net_weight": 360,
+              "gross_weight": 360,
+              "weight_uom": "lb"
+            }
+          ]
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 6,
+          "lot": "TOMTESTCS2-Glot",
+          "material": "TOMTESTCS2",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 72,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS2-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTCS2",
+              "packaging": "CA",
+              "base_amount": 72,
+              "packaged_amount": 72,
+              "net_weight": 720,
+              "gross_weight": 720,
+              "weight_uom": "lb"
+            }
+          ]
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "U05212025",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 343,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "330",
+          "notes": "Shipment Closed by [JTL FP Service], on [5/21/2025 1:29:32 PM]",
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Completed",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 48522,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTEA",
+          "notes": null
+        },
+        {
+          "task_id": 48523,
+          "operation_code": "Receiving",
+          "order_line_number": 2,
+          "status": "Completed",
+          "material": "TOMTESTEA2",
+          "notes": null
+        },
+        {
+          "task_id": 48524,
+          "operation_code": "Receiving",
+          "order_line_number": 3,
+          "status": "Completed",
+          "material": "TOMTESTPK",
+          "notes": null
+        },
+        {
+          "task_id": 48525,
+          "operation_code": "Receiving",
+          "order_line_number": 4,
+          "status": "Completed",
+          "material": "TOMTESTPK2",
+          "notes": null
+        },
+        {
+          "task_id": 48526,
+          "operation_code": "Receiving",
+          "order_line_number": 5,
+          "status": "Completed",
+          "material": "TOMTESTCS",
+          "notes": null
+        },
+        {
+          "task_id": 48527,
+          "operation_code": "Receiving",
+          "order_line_number": 6,
+          "status": "Completed",
+          "material": "TOMTESTCS2",
+          "notes": null
+        },
+        {
+          "task_id": 48537,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Cancelled",
+          "material": "TOMTESTEA",
+          "notes": "Task cancelled because a Compensating Task [Task|0] was created.  There was an adjustment of [-3500.00000000]"
+        },
+        {
+          "task_id": 48539,
+          "operation_code": "Receiving",
+          "order_line_number": 2,
+          "status": "Cancelled",
+          "material": "TOMTESTEA2",
+          "notes": "Task cancelled because a Compensating Task [Task|0] was created.  There was an adjustment of [-2640.00000000]"
+        },
+        {
+          "task_id": 48541,
+          "operation_code": "Receiving",
+          "order_line_number": 2,
+          "status": "Cancelled",
+          "material": "TOMTESTEA2",
+          "notes": "Task cancelled because a Compensating Task [Task|0] was created.  There was an adjustment of [-2640.00000000]"
+        },
+        {
+          "task_id": 48543,
+          "operation_code": "Receiving",
+          "order_line_number": 3,
+          "status": "Cancelled",
+          "material": "TOMTESTPK",
+          "notes": "Task cancelled because a Compensating Task [Task|0] was created.  There was an adjustment of [-600.00000000]"
+        },
+        {
+          "task_id": 48545,
+          "operation_code": "Receiving",
+          "order_line_number": 3,
+          "status": "Cancelled",
+          "material": "TOMTESTPK",
+          "notes": "Task cancelled because a Compensating Task [Task|0] was created.  There was an adjustment of [-600.00000000]"
+        },
+        {
+          "task_id": 48547,
+          "operation_code": "Receiving",
+          "order_line_number": 4,
+          "status": "Cancelled",
+          "material": "TOMTESTPK2",
+          "notes": "Task cancelled because a Compensating Task [Task|0] was created.  There was an adjustment of [-600.00000000]"
+        },
+        {
+          "task_id": 48549,
+          "operation_code": "Receiving",
+          "order_line_number": 5,
+          "status": "Cancelled",
+          "material": "TOMTESTCS",
+          "notes": "Task cancelled because a Compensating Task [Task|0] was created.  There was an adjustment of [-18.00000000]"
+        },
+        {
+          "task_id": 48551,
+          "operation_code": "Receiving",
+          "order_line_number": 5,
+          "status": "Cancelled",
+          "material": "TOMTESTCS",
+          "notes": "Task cancelled because a Compensating Task [Task|0] was created.  There was an adjustment of [-18.00000000]"
+        },
+        {
+          "task_id": 48553,
+          "operation_code": "Receiving",
+          "order_line_number": 4,
+          "status": "Cancelled",
+          "material": "TOMTESTPK2",
+          "notes": "Task cancelled because a Compensating Task [Task|0] was created.  There was an adjustment of [-18.00000000]"
+        },
+        {
+          "task_id": 48555,
+          "operation_code": "Receiving",
+          "order_line_number": 4,
+          "status": "Cancelled",
+          "material": "TOMTESTPK2",
+          "notes": "Task cancelled because a Compensating Task [Task|0] was created.  There was an adjustment of [-18.00000000]"
+        },
+        {
+          "task_id": 48557,
+          "operation_code": "Receiving",
+          "order_line_number": 4,
+          "status": "Cancelled",
+          "material": "TOMTESTPK2",
+          "notes": "Task cancelled because a Compensating Task [Task|0] was created.  There was an adjustment of [-18.00000000]"
+        },
+        {
+          "task_id": 48559,
+          "operation_code": "Receiving",
+          "order_line_number": 4,
+          "status": "Cancelled",
+          "material": "TOMTESTPK2",
+          "notes": "Task cancelled because a Compensating Task [Task|0] was created.  There was an adjustment of [-18.00000000]"
+        },
+        {
+          "task_id": 48561,
+          "operation_code": "Inventory Adjustment",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": "TOMTESTEA",
+          "notes": null
+        },
+        {
+          "task_id": 48562,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTEA",
+          "notes": "This is a Compensating Task for [Task|48537].  There was an adjustment of [-3500.00000000]"
+        },
+        {
+          "task_id": 48563,
+          "operation_code": "Inventory Adjustment",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": "TOMTESTEA2",
+          "notes": null
+        },
+        {
+          "task_id": 48564,
+          "operation_code": "Receiving",
+          "order_line_number": 2,
+          "status": "Completed",
+          "material": "TOMTESTEA2",
+          "notes": "This is a Compensating Task for [Task|48539].  There was an adjustment of [-2640.00000000]"
+        },
+        {
+          "task_id": 48565,
+          "operation_code": "Inventory Adjustment",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": "TOMTESTEA2",
+          "notes": null
+        },
+        {
+          "task_id": 48566,
+          "operation_code": "Receiving",
+          "order_line_number": 2,
+          "status": "Completed",
+          "material": "TOMTESTEA2",
+          "notes": "This is a Compensating Task for [Task|48541].  There was an adjustment of [-2640.00000000]"
+        },
+        {
+          "task_id": 48567,
+          "operation_code": "Inventory Adjustment",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": "TOMTESTPK",
+          "notes": null
+        },
+        {
+          "task_id": 48568,
+          "operation_code": "Receiving",
+          "order_line_number": 3,
+          "status": "Completed",
+          "material": "TOMTESTPK",
+          "notes": "This is a Compensating Task for [Task|48543].  There was an adjustment of [-600.00000000]"
+        },
+        {
+          "task_id": 48569,
+          "operation_code": "Inventory Adjustment",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": "TOMTESTPK",
+          "notes": null
+        },
+        {
+          "task_id": 48570,
+          "operation_code": "Receiving",
+          "order_line_number": 3,
+          "status": "Completed",
+          "material": "TOMTESTPK",
+          "notes": "This is a Compensating Task for [Task|48545].  There was an adjustment of [-600.00000000]"
+        },
+        {
+          "task_id": 48571,
+          "operation_code": "Inventory Adjustment",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": "TOMTESTPK2",
+          "notes": null
+        },
+        {
+          "task_id": 48572,
+          "operation_code": "Receiving",
+          "order_line_number": 4,
+          "status": "Completed",
+          "material": "TOMTESTPK2",
+          "notes": "This is a Compensating Task for [Task|48547].  There was an adjustment of [-600.00000000]"
+        },
+        {
+          "task_id": 48573,
+          "operation_code": "Inventory Adjustment",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": "TOMTESTPK2",
+          "notes": null
+        },
+        {
+          "task_id": 48574,
+          "operation_code": "Receiving",
+          "order_line_number": 4,
+          "status": "Completed",
+          "material": "TOMTESTPK2",
+          "notes": "This is a Compensating Task for [Task|48553].  There was an adjustment of [-18.00000000]"
+        },
+        {
+          "task_id": 48575,
+          "operation_code": "Inventory Adjustment",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": "TOMTESTPK2",
+          "notes": null
+        },
+        {
+          "task_id": 48576,
+          "operation_code": "Receiving",
+          "order_line_number": 4,
+          "status": "Completed",
+          "material": "TOMTESTPK2",
+          "notes": "This is a Compensating Task for [Task|48555].  There was an adjustment of [-18.00000000]"
+        },
+        {
+          "task_id": 48577,
+          "operation_code": "Inventory Adjustment",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": "TOMTESTPK2",
+          "notes": null
+        },
+        {
+          "task_id": 48578,
+          "operation_code": "Receiving",
+          "order_line_number": 4,
+          "status": "Completed",
+          "material": "TOMTESTPK2",
+          "notes": "This is a Compensating Task for [Task|48557].  There was an adjustment of [-18.00000000]"
+        },
+        {
+          "task_id": 48579,
+          "operation_code": "Inventory Adjustment",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": "TOMTESTPK2",
+          "notes": null
+        },
+        {
+          "task_id": 48580,
+          "operation_code": "Receiving",
+          "order_line_number": 4,
+          "status": "Completed",
+          "material": "TOMTESTPK2",
+          "notes": "This is a Compensating Task for [Task|48559].  There was an adjustment of [-18.00000000]"
+        },
+        {
+          "task_id": 48581,
+          "operation_code": "Inventory Adjustment",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": "TOMTESTCS",
+          "notes": null
+        },
+        {
+          "task_id": 48582,
+          "operation_code": "Receiving",
+          "order_line_number": 5,
+          "status": "Completed",
+          "material": "TOMTESTCS",
+          "notes": "This is a Compensating Task for [Task|48549].  There was an adjustment of [-18.00000000]"
+        },
+        {
+          "task_id": 48583,
+          "operation_code": "Inventory Adjustment",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": "TOMTESTCS",
+          "notes": null
+        },
+        {
+          "task_id": 48584,
+          "operation_code": "Receiving",
+          "order_line_number": 5,
+          "status": "Completed",
+          "material": "TOMTESTCS",
+          "notes": "This is a Compensating Task for [Task|48551].  There was an adjustment of [-18.00000000]"
+        },
+        {
+          "task_id": 48586,
+          "operation_code": "Receiving",
+          "order_line_number": 6,
+          "status": "Completed",
+          "material": "TOMTESTCS2",
+          "notes": null
+        },
+        {
+          "task_id": 48588,
+          "operation_code": "Receiving",
+          "order_line_number": 6,
+          "status": "Completed",
+          "material": "TOMTESTCS2",
+          "notes": null
+        },
+        {
+          "task_id": 48590,
+          "operation_code": "Receiving",
+          "order_line_number": 6,
+          "status": "Completed",
+          "material": "TOMTESTCS2",
+          "notes": null
+        },
+        {
+          "task_id": 48592,
+          "operation_code": "Receiving",
+          "order_line_number": 6,
+          "status": "Completed",
+          "material": "TOMTESTCS2",
+          "notes": null
+        },
+        {
+          "task_id": 48594,
+          "operation_code": "Receiving",
+          "order_line_number": 5,
+          "status": "Completed",
+          "material": "TOMTESTCS",
+          "notes": null
+        },
+        {
+          "task_id": 48597,
+          "operation_code": "Receiving",
+          "order_line_number": 5,
+          "status": "Completed",
+          "material": "TOMTESTCS",
+          "notes": null
+        },
+        {
+          "task_id": 48599,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTEA",
+          "notes": null
+        },
+        {
+          "task_id": 48603,
+          "operation_code": "Receiving",
+          "order_line_number": 2,
+          "status": "Completed",
+          "material": "TOMTESTEA2",
+          "notes": null
+        },
+        {
+          "task_id": 48605,
+          "operation_code": "Receiving",
+          "order_line_number": 2,
+          "status": "Completed",
+          "material": "TOMTESTEA2",
+          "notes": null
+        },
+        {
+          "task_id": 48607,
+          "operation_code": "Receiving",
+          "order_line_number": 3,
+          "status": "Completed",
+          "material": "TOMTESTPK",
+          "notes": null
+        },
+        {
+          "task_id": 48609,
+          "operation_code": "Receiving",
+          "order_line_number": 3,
+          "status": "Completed",
+          "material": "TOMTESTPK",
+          "notes": null
+        },
+        {
+          "task_id": 48611,
+          "operation_code": "Receiving",
+          "order_line_number": 4,
+          "status": "Completed",
+          "material": "TOMTESTPK2",
+          "notes": null
+        }
+      ],
+      "shipped_contents": [
+        {
+          "material": "TOMTESTEA",
+          "packaging": "EA",
+          "base_amount": 3500,
+          "packaged_amount": 3500,
+          "net_weight": 350,
+          "gross_weight": 350,
+          "weight_uom": "lb"
+        },
+        {
+          "material": "TOMTESTEA2",
+          "packaging": "EA",
+          "base_amount": 5280,
+          "packaged_amount": 5280,
+          "net_weight": 1320,
+          "gross_weight": 1320,
+          "weight_uom": "lb"
+        },
+        {
+          "material": "TOMTESTPK",
+          "packaging": "PK",
+          "base_amount": 1200,
+          "packaged_amount": 1200,
+          "net_weight": 600,
+          "gross_weight": 600,
+          "weight_uom": "lb"
+        },
+        {
+          "material": "TOMTESTPK2",
+          "packaging": "PK",
+          "base_amount": 600,
+          "packaged_amount": 600,
+          "net_weight": 300,
+          "gross_weight": 300,
+          "weight_uom": "lb"
+        },
+        {
+          "material": "TOMTESTCS",
+          "packaging": "CA",
+          "base_amount": 36,
+          "packaged_amount": 36,
+          "net_weight": 360,
+          "gross_weight": 360,
+          "weight_uom": "lb"
+        },
+        {
+          "material": "TOMTESTCS2",
+          "packaging": "CA",
+          "base_amount": 72,
+          "packaged_amount": 72,
+          "net_weight": 720,
+          "gross_weight": 720,
+          "weight_uom": "lb"
+        }
+      ]
+    },
+    {
+      "addresses": [],
+      "created_on": "2025-06-05T16:40:53.92Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "390-RMA",
+      "notes": "Return order created for RMA of outbound order '390'",
+      "order_class": "InRMA",
+      "order_id": 415,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTPK-Glot",
+          "material": "TOMTESTPK",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 12,
+          "packaging": "PK",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Working",
+          "upc": null,
+          "vendor_lot": "TOMTESTPK-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": null,
+      "project": "JTL Test",
+      "requested_delivery_date": "2025-06-05T20:40:53.673Z",
+      "shipments": [
+        {
+          "shipment_id": 427,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "390-RMA",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Processing",
+      "vendor_reference": "3546541",
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 49280,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Planned",
+          "material": "TOMTESTPK",
+          "notes": null
+        },
+        {
+          "task_id": 49281,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "RgaValidation"
+        }
+      ]
+    },
+    {
+      "addresses": [],
+      "created_on": "2025-09-16T15:20:15.3266667Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-09-18T08:44:35.66Z",
+      "lookup": "645",
+      "notes": null,
+      "order_class": "PO",
+      "order_id": 645,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTEST0001-GLot",
+          "material": "TOMTESTEA",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 7000,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTEST0001-GLot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTEA",
+              "packaging": "EA",
+              "base_amount": 7000,
+              "packaged_amount": 7000,
+              "net_weight": 700,
+              "gross_weight": 700,
+              "weight_uom": "lb"
+            }
+          ]
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "test1234",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 658,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "645",
+          "notes": "Shipment Closed by [tom.richman@jtlogistics.com], on [9/18/2025 8:44:35 AM]",
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Completed",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 52549,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTEA",
+          "notes": null
+        },
+        {
+          "task_id": 52551,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTEA",
+          "notes": null
+        }
+      ],
+      "shipped_contents": [
+        {
+          "material": "TOMTESTEA",
+          "packaging": "EA",
+          "base_amount": 7000,
+          "packaged_amount": 7000,
+          "net_weight": 700,
+          "gross_weight": 700,
+          "weight_uom": "lb"
+        }
+      ]
+    },
+    {
+      "addresses": [],
+      "created_on": "2025-09-23T13:58:29.1933333Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-09-23T14:06:42.517Z",
+      "lookup": "693",
+      "notes": null,
+      "order_class": "PO",
+      "order_id": 693,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTEA6-Glot",
+          "material": "TOMTESTEA6",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 300,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTEA6-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTEA6",
+              "packaging": "EA",
+              "base_amount": 300,
+              "packaged_amount": 300,
+              "net_weight": 150,
+              "gross_weight": 150,
+              "weight_uom": "lb"
+            }
+          ]
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "12345678",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 705,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "693",
+          "notes": "Shipment Closed by [tom.richman@jtlogistics.com], on [9/23/2025 2:06:42 PM]",
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Completed",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 52589,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTEA6",
+          "notes": null
+        },
+        {
+          "task_id": 52591,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTEA6",
+          "notes": null
+        },
+        {
+          "task_id": 52593,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTEA6",
+          "notes": null
+        }
+      ],
+      "shipped_contents": [
+        {
+          "material": "TOMTESTEA6",
+          "packaging": "EA",
+          "base_amount": 300,
+          "packaged_amount": 300,
+          "net_weight": 150,
+          "gross_weight": 150,
+          "weight_uom": "lb"
+        }
+      ]
+    },
+    {
+      "addresses": [],
+      "created_on": "2025-10-01T11:05:49.2066667Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-10-01T11:15:08.277Z",
+      "lookup": "787",
+      "notes": null,
+      "order_class": "PO",
+      "order_id": 787,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTCS6-Glot",
+          "material": "TOMTESTCS6",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 4,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS6-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTCS6",
+              "packaging": "CA",
+              "base_amount": 4,
+              "packaged_amount": 4,
+              "net_weight": 168,
+              "gross_weight": 168,
+              "weight_uom": "lb"
+            }
+          ]
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "123456-1001",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 778,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "787",
+          "notes": "Shipment Closed by [Tom Richman], on [10/1/2025 11:15:08 AM]",
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Completed",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 52836,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTCS6",
+          "notes": null
+        },
+        {
+          "task_id": 52838,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTCS6",
+          "notes": null
+        }
+      ],
+      "shipped_contents": [
+        {
+          "material": "TOMTESTCS6",
+          "packaging": "CA",
+          "base_amount": 4,
+          "packaged_amount": 4,
+          "net_weight": 168,
+          "gross_weight": 168,
+          "weight_uom": "lb"
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": null,
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "6",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 202,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "created_on": "2025-10-06T13:16:18.1633333Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "796",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 796,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTCS7-Glot",
+          "material": "TOMTESTCS7",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 1,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Working",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS7-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1006-1",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 787,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "796",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Processing",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53024,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53028,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53029,
+          "operation_code": "Manual Pick Allocation",
+          "order_line_number": 1,
+          "status": "Released",
+          "material": "TOMTESTCS7",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": null,
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "6",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 203,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "created_on": "2025-10-06T13:16:19.9666667Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "797",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 797,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTCS7-Glot",
+          "material": "TOMTESTCS7",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 1,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Working",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS7-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1006-2",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 788,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "797",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Processing",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53023,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53027,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53030,
+          "operation_code": "Manual Pick Allocation",
+          "order_line_number": 1,
+          "status": "Released",
+          "material": "TOMTESTCS7",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": null,
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "7",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 204,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "created_on": "2025-10-06T13:16:21.5433333Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "798",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 798,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTEA5-Glot",
+          "material": "TOMTESTEA5",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 6,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Created",
+          "upc": null,
+          "vendor_lot": "TOMTESTEA5-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1006-3",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 789,
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "798",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Created",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": []
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": null,
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "7",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 205,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "created_on": "2025-10-06T13:16:23.19Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "799",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 799,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTEA5-Glot",
+          "material": "TOMTESTEA5",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 5,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Created",
+          "upc": null,
+          "vendor_lot": "TOMTESTEA5-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1006-4",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 790,
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "799",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Created",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": []
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": null,
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "8",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 206,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "created_on": "2025-10-06T13:16:24.8966667Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "800",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 800,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTEA3-Glot",
+          "material": "TOMTESTEA3",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 6,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Working",
+          "upc": null,
+          "vendor_lot": "TOMTESTEA3-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1006-5",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 791,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "800",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Processing",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53031,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53039,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53051,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53077,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53088,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53091,
+          "operation_code": "Replenishment",
+          "order_line_number": null,
+          "status": "Released",
+          "material": "TOMTESTEA3",
+          "notes": "This task was released in the following context: Generating pick tasks for a shipment line\r\nThis task was reused in the following context: Generating pick tasks for a shipment line\r\nThis task was reused in the following context: Generating pick tasks for a shipment line\r\nThis task was reused in the following context: Generating pick tasks for a shipment line\r\nThis task was reused in the following context: Generating pick tasks for a shipment line\r\nThis task was reused in the following context: Generating pick tasks for a shipment line\r\nThis task was reused in the following context: Generating pick tasks for a shipment line"
+        },
+        {
+          "task_id": 53092,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Released",
+          "material": "TOMTESTEA3",
+          "notes": null
+        },
+        {
+          "task_id": 53093,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Released",
+          "material": "TOMTESTEA3",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": null,
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "8",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 207,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "created_on": "2025-10-06T13:16:26.5333333Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "801",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 801,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTEA3-Glot",
+          "material": "TOMTESTEA3",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 5,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Working",
+          "upc": null,
+          "vendor_lot": "TOMTESTEA3-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1006-6",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 792,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "801",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Processing",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53032,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53038,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53049,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53078,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53090,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53095,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Released",
+          "material": "TOMTESTEA3",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": null,
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "8",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 208,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "created_on": "2025-10-06T13:16:28.1466667Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "802",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 802,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTEA3-Glot",
+          "material": "TOMTESTEA3",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 5,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Working",
+          "upc": null,
+          "vendor_lot": "TOMTESTEA3-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1006-7",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 793,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "802",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Processing",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53046,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53087,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53097,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Released",
+          "material": "TOMTESTEA3",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": null,
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "9",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 209,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "created_on": "2025-10-06T13:16:29.8233333Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "803",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 803,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTEA3-Glot",
+          "material": "TOMTESTEA3",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 5,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Working",
+          "upc": null,
+          "vendor_lot": "TOMTESTEA3-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1006-8",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 794,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "803",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Processing",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53050,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53086,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53099,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Released",
+          "material": "TOMTESTEA3",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": null,
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "9",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 210,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "created_on": "2025-10-06T13:16:31.4366667Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "804",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 804,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTEA3-Glot",
+          "material": "TOMTESTEA3",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 5,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Working",
+          "upc": null,
+          "vendor_lot": "TOMTESTEA3-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1006-9",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 795,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "804",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Processing",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53048,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53089,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53101,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Released",
+          "material": "TOMTESTEA3",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": null,
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "9",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 211,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "created_on": "2025-10-06T13:16:33.0266667Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "805",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 805,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTEA3-Glot",
+          "material": "TOMTESTEA3",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 5,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Working",
+          "upc": null,
+          "vendor_lot": "TOMTESTEA3-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1006-10",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 796,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "805",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Processing",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53047,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53085,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53103,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Released",
+          "material": "TOMTESTEA3",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": null,
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "9",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 212,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "created_on": "2025-10-06T13:16:34.6Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "806",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 806,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTEA3-Glot",
+          "material": "TOMTESTEA3",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 5,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Working",
+          "upc": null,
+          "vendor_lot": "TOMTESTEA3-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1006-11",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 797,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "806",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Processing",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53045,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53084,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53105,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Released",
+          "material": "TOMTESTEA3",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": null,
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "10",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 213,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "created_on": "2025-10-06T13:16:36.2333333Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "807",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 807,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTPK4-Glot",
+          "material": "TOMTESTPK4",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 4,
+          "packaging": "PK",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Working",
+          "upc": null,
+          "vendor_lot": "TOMTESTPK4-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1006-12",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 798,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "807",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Processing",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53068,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53071,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53073,
+          "operation_code": "Replenishment",
+          "order_line_number": null,
+          "status": "Released",
+          "material": "TOMTESTPK4",
+          "notes": "This task was released in the following context: Generating pick tasks for a shipment line\r\nThis task was reused in the following context: Generating pick tasks for a shipment line"
+        },
+        {
+          "task_id": 53074,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Released",
+          "material": "TOMTESTPK4",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": null,
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "10",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 214,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "created_on": "2025-10-06T13:16:37.8166667Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "808",
+      "notes": "",
+      "order_class": "Ecom",
+      "order_id": 808,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTPK4-Glot",
+          "material": "TOMTESTPK4",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 4,
+          "packaging": "PK",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Working",
+          "upc": null,
+          "vendor_lot": "TOMTESTPK4-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1006-13",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 799,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "808",
+          "notes": "Notes here",
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Processing",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53067,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53072,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with configuration Default"
+        },
+        {
+          "task_id": 53076,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Released",
+          "material": "TOMTESTPK4",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "addresses": [],
+      "created_on": "2025-10-10T09:31:36.0233333Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-11-05T08:16:06.693Z",
+      "lookup": "819",
+      "notes": null,
+      "order_class": "PO",
+      "order_id": 819,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTPW1-Glot",
+          "material": "TOMTESTPW1",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 24,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTPW1-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTPW1",
+              "packaging": "CA",
+              "base_amount": 24,
+              "packaged_amount": 24,
+              "net_weight": 1008,
+              "gross_weight": 1008,
+              "weight_uom": "lb"
+            }
+          ]
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": null,
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 808,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "819",
+          "notes": "Shipment Closed by [Tom Richman], on [11/5/2025 8:16:06 AM]",
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Completed",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53221,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPW1",
+          "notes": null
+        },
+        {
+          "task_id": 53223,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPW1",
+          "notes": null
+        },
+        {
+          "task_id": 53225,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPW1",
+          "notes": null
+        },
+        {
+          "task_id": 53227,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPW1",
+          "notes": null
+        },
+        {
+          "task_id": 53229,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPW1",
+          "notes": null
+        },
+        {
+          "task_id": 53231,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPW1",
+          "notes": null
+        },
+        {
+          "task_id": 53233,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPW1",
+          "notes": null
+        }
+      ],
+      "shipped_contents": [
+        {
+          "material": "TOMTESTPW1",
+          "packaging": "CA",
+          "base_amount": 24,
+          "packaged_amount": 24,
+          "net_weight": 1008,
+          "gross_weight": 1008,
+          "weight_uom": "lb"
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": "US",
+          "email": null,
+          "fax": null,
+          "first_name": "Tom",
+          "greeting": null,
+          "is_residential": false,
+          "last_name": "Richman",
+          "line_1": "3912 Pleasant ",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Tom",
+          "notes": null,
+          "order_address_id": 396,
+          "phone": "5155155151",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        },
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": "US",
+          "email": null,
+          "fax": null,
+          "first_name": "Tom",
+          "greeting": null,
+          "is_residential": false,
+          "last_name": "Richman",
+          "line_1": "3912 Pleasant ",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Tom",
+          "notes": null,
+          "order_address_id": 397,
+          "phone": "5155155151",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "carrier": "FedEx",
+      "carrier_service": "FedEx Ground",
+      "created_on": "2025-10-27T13:14:14.1266667Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-10-27T14:00:48.407Z",
+      "lookup": "972",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 972,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTPK-Glot",
+          "material": "TOMTESTPK",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 1,
+          "packaging": "PK",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTPK-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTPK",
+              "packaging": "PK",
+              "base_amount": 1,
+              "packaged_amount": 1,
+              "net_weight": 0.5,
+              "gross_weight": 0.5,
+              "weight_uom": "lb"
+            }
+          ]
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 2,
+          "lot": "TOMTESTCS2-Glot",
+          "material": "TOMTESTCS2",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 1,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS2-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTCS2",
+              "packaging": "CA",
+              "base_amount": 1,
+              "packaged_amount": 1,
+              "net_weight": 10,
+              "gross_weight": 10,
+              "weight_uom": "lb"
+            }
+          ]
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "972",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 906,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": "10000000000000657",
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "906",
+          "notes": "Shipment Closed by [wavelength-prod-jtl-wavelength-scheduler-prod], on [9/3/2025 1:00:34 PM]\r\nShipment Closed by [wavelength-prod-jtl-wavelength-scheduler-prod], on [10/27/2025 2:00:48 PM]",
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Completed",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53513,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53514,
+          "operation_code": "Picking",
+          "order_line_number": 2,
+          "status": "Completed",
+          "material": "TOMTESTCS2",
+          "notes": ""
+        },
+        {
+          "task_id": 53515,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPK",
+          "notes": ""
+        },
+        {
+          "task_id": 53529,
+          "operation_code": "First Each Pick",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Generated via Workflow"
+        }
+      ],
+      "shipped_contents": [
+        {
+          "material": "TOMTESTPK",
+          "packaging": "PK",
+          "base_amount": 1,
+          "packaged_amount": 1,
+          "net_weight": 0.5,
+          "gross_weight": 0.5,
+          "weight_uom": "lb"
+        },
+        {
+          "material": "TOMTESTCS2",
+          "packaging": "CA",
+          "base_amount": 1,
+          "packaged_amount": 1,
+          "net_weight": 10,
+          "gross_weight": 10,
+          "weight_uom": "lb"
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": "US",
+          "email": null,
+          "fax": null,
+          "first_name": "Tom",
+          "greeting": null,
+          "is_residential": false,
+          "last_name": "Richman",
+          "line_1": "3912 Pleasant ",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Tom",
+          "notes": null,
+          "order_address_id": 442,
+          "phone": "5155155151",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        },
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": "US",
+          "email": null,
+          "fax": null,
+          "first_name": "Tom",
+          "greeting": null,
+          "is_residential": false,
+          "last_name": "Richman",
+          "line_1": "3912 Pleasant ",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Tom",
+          "notes": null,
+          "order_address_id": 443,
+          "phone": "5155155151",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "carrier": "DHL Express",
+      "created_on": "2025-10-27T15:16:54.5166667Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-10-27T14:00:48.407Z",
+      "lookup": "995",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 995,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTPK-Glot",
+          "material": "TOMTESTPK",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 1,
+          "packaging": "PK",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Created",
+          "upc": null,
+          "vendor_lot": "TOMTESTPK-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 2,
+          "lot": "TOMTESTCS2-Glot",
+          "material": "TOMTESTCS2",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 1,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Created",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS2-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "995",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 929,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": "10000000000000680",
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "929",
+          "notes": "Shipment Closed by [wavelength-prod-jtl-wavelength-scheduler-prod], on [9/3/2025 1:00:34 PM]\r\nShipment Closed by [wavelength-prod-jtl-wavelength-scheduler-prod], on [10/27/2025 2:00:48 PM]",
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Created",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53530,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53533,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": "USA",
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "Shiping 1",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 722,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "carrier": "UPS",
+      "carrier_service": "Ground",
+      "created_on": "2025-10-30T12:30:28.4266667Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-11-06T12:00:34.463Z",
+      "lookup": "1135",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 1135,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTCS-Glot",
+          "material": "TOMTESTCS",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 2,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTCS",
+              "packaging": "CA",
+              "base_amount": 2,
+              "packaged_amount": 2,
+              "net_weight": 20,
+              "gross_weight": 20,
+              "weight_uom": "lb"
+            }
+          ]
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 2,
+          "lot": "TOMTESTCS2-Glot",
+          "material": "TOMTESTCS2",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 2,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS2-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTCS2",
+              "packaging": "CA",
+              "base_amount": 2,
+              "packaged_amount": 2,
+              "net_weight": 20,
+              "gross_weight": 20,
+              "weight_uom": "lb"
+            }
+          ]
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 3,
+          "lot": "TOMTESTCS3-Glot",
+          "material": "TOMTESTCS3",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 1,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS3-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTCS3",
+              "packaging": "CA",
+              "base_amount": 1,
+              "packaged_amount": 1,
+              "net_weight": 42,
+              "gross_weight": 42,
+              "weight_uom": "lb"
+            }
+          ]
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1030-1",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 1069,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "1135",
+          "notes": "Shipment Closed by [wavelength-prod-jtl-wavelength-scheduler-prod], on [11/6/2025 12:00:34 PM]",
+          "pickup_date": null,
+          "tracking_identifier": "1ZXXXXXXXXXXXXXXXX",
+          "custom_fields": []
+        }
+      ],
+      "status": "Completed",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53606,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53613,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53688,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53773,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53779,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53785,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53786,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTCS",
+          "notes": ""
+        },
+        {
+          "task_id": 53787,
+          "operation_code": "Picking",
+          "order_line_number": 3,
+          "status": "Completed",
+          "material": "TOMTESTCS3",
+          "notes": ""
+        },
+        {
+          "task_id": 53788,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTCS",
+          "notes": ""
+        },
+        {
+          "task_id": 53789,
+          "operation_code": "Picking",
+          "order_line_number": 2,
+          "status": "Completed",
+          "material": "TOMTESTCS2",
+          "notes": ""
+        },
+        {
+          "task_id": 53790,
+          "operation_code": "Picking",
+          "order_line_number": 2,
+          "status": "Completed",
+          "material": "TOMTESTCS2",
+          "notes": ""
+        }
+      ],
+      "shipped_contents": [
+        {
+          "material": "TOMTESTCS",
+          "packaging": "CA",
+          "base_amount": 2,
+          "packaged_amount": 2,
+          "net_weight": 20,
+          "gross_weight": 20,
+          "weight_uom": "lb"
+        },
+        {
+          "material": "TOMTESTCS2",
+          "packaging": "CA",
+          "base_amount": 2,
+          "packaged_amount": 2,
+          "net_weight": 20,
+          "gross_weight": 20,
+          "weight_uom": "lb"
+        },
+        {
+          "material": "TOMTESTCS3",
+          "packaging": "CA",
+          "base_amount": 1,
+          "packaged_amount": 1,
+          "net_weight": 42,
+          "gross_weight": 42,
+          "weight_uom": "lb"
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": "Blain Supply Inc.",
+          "city": "Racine",
+          "country": "USA",
+          "email": "kberg@blainsupply.com",
+          "fax": null,
+          "first_name": " ",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": " ",
+          "line_1": "3507 E Racine St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": " ",
+          "notes": null,
+          "order_address_id": 723,
+          "phone": "608 7542821",
+          "postal_code": "53546",
+          "reference": null,
+          "state": "WI",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "carrier": "UPS",
+      "carrier_service": "Ground",
+      "created_on": "2025-10-30T12:30:30.1866667Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-11-05T11:00:30.97Z",
+      "lookup": "1136",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 1136,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTCS-Glot",
+          "material": "TOMTESTCS",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 1,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTCS",
+              "packaging": "CA",
+              "base_amount": 1,
+              "packaged_amount": 1,
+              "net_weight": 10,
+              "gross_weight": 10,
+              "weight_uom": "lb"
+            }
+          ]
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 2,
+          "lot": "TOMTESTCS2-Glot",
+          "material": "TOMTESTCS2",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 2,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS2-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTCS2",
+              "packaging": "CA",
+              "base_amount": 2,
+              "packaged_amount": 2,
+              "net_weight": 20,
+              "gross_weight": 20,
+              "weight_uom": "lb"
+            }
+          ]
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 3,
+          "lot": "TOMTESTEA2-Glot",
+          "material": "TOMTESTEA2",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 25,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTEA2-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTEA2",
+              "packaging": "EA",
+              "base_amount": 25,
+              "packaged_amount": 25,
+              "net_weight": 6.25,
+              "gross_weight": 6.25,
+              "weight_uom": "lb"
+            }
+          ]
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1030-2",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 1070,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "1136",
+          "notes": "Shipment Closed by [AADDS\\jtl-fpservice], on [11/5/2025 11:00:30 AM]",
+          "pickup_date": null,
+          "tracking_identifier": "1ZXXXXXXXXXXXXXXXX",
+          "custom_fields": []
+        }
+      ],
+      "status": "Completed",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53587,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53593,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53601,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53619,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53624,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53694,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53695,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTCS",
+          "notes": ""
+        },
+        {
+          "task_id": 53696,
+          "operation_code": "Picking",
+          "order_line_number": 3,
+          "status": "Completed",
+          "material": "TOMTESTEA2",
+          "notes": ""
+        },
+        {
+          "task_id": 53697,
+          "operation_code": "Picking",
+          "order_line_number": 2,
+          "status": "Completed",
+          "material": "TOMTESTCS2",
+          "notes": ""
+        },
+        {
+          "task_id": 53698,
+          "operation_code": "Picking",
+          "order_line_number": 2,
+          "status": "Completed",
+          "material": "TOMTESTCS2",
+          "notes": ""
+        },
+        {
+          "task_id": 53701,
+          "operation_code": "Picking",
+          "order_line_number": 3,
+          "status": "Completed",
+          "material": "TOMTESTEA2",
+          "notes": ""
+        },
+        {
+          "task_id": 53741,
+          "operation_code": "First Each Pick",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Generated via Workflow"
+        },
+        {
+          "task_id": 53742,
+          "operation_code": "Non-First Each Pick",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Generated via Workflow"
+        }
+      ],
+      "shipped_contents": [
+        {
+          "material": "TOMTESTCS",
+          "packaging": "CA",
+          "base_amount": 1,
+          "packaged_amount": 1,
+          "net_weight": 10,
+          "gross_weight": 10,
+          "weight_uom": "lb"
+        },
+        {
+          "material": "TOMTESTCS2",
+          "packaging": "CA",
+          "base_amount": 2,
+          "packaged_amount": 2,
+          "net_weight": 20,
+          "gross_weight": 20,
+          "weight_uom": "lb"
+        },
+        {
+          "material": "TOMTESTEA2",
+          "packaging": "EA",
+          "base_amount": 25,
+          "packaged_amount": 25,
+          "net_weight": 6.25,
+          "gross_weight": 6.25,
+          "weight_uom": "lb"
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": "USA",
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "Shiping 3",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 724,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "carrier": "UPS",
+      "carrier_service": "Ground",
+      "created_on": "2025-10-30T12:30:31.9466667Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-11-06T12:40:03.79Z",
+      "lookup": "1137",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 1137,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTCS-Glot",
+          "material": "TOMTESTCS",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 1,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTCS",
+              "packaging": "CA",
+              "base_amount": 1,
+              "packaged_amount": 1,
+              "net_weight": 10,
+              "gross_weight": 10,
+              "weight_uom": "lb"
+            }
+          ]
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 2,
+          "lot": "TOMTESTCS2-Glot",
+          "material": "TOMTESTCS2",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 1,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS2-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTCS2",
+              "packaging": "CA",
+              "base_amount": 1,
+              "packaged_amount": 1,
+              "net_weight": 10,
+              "gross_weight": 10,
+              "weight_uom": "lb"
+            }
+          ]
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 3,
+          "lot": "TOMTESTPK-Glot",
+          "material": "TOMTESTPK",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 19,
+          "packaging": "PK",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTPK-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTPK",
+              "packaging": "PK",
+              "base_amount": 19,
+              "packaged_amount": 19,
+              "net_weight": 9.5,
+              "gross_weight": 9.5,
+              "weight_uom": "lb"
+            }
+          ]
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1030-3",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 1071,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "1137",
+          "notes": "Shipment Closed by [wavelength-prod-jtl-wavelength-scheduler-prod], on [11/6/2025 12:40:03 PM]",
+          "pickup_date": null,
+          "tracking_identifier": "1ZXXXXXXXXXXXXXXXX",
+          "custom_fields": []
+        }
+      ],
+      "status": "Completed",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53581,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53629,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53638,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53769,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53770,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTCS",
+          "notes": ""
+        },
+        {
+          "task_id": 53771,
+          "operation_code": "Picking",
+          "order_line_number": 2,
+          "status": "Completed",
+          "material": "TOMTESTCS2",
+          "notes": ""
+        },
+        {
+          "task_id": 53772,
+          "operation_code": "Picking",
+          "order_line_number": 3,
+          "status": "Completed",
+          "material": "TOMTESTPK",
+          "notes": ""
+        },
+        {
+          "task_id": 53846,
+          "operation_code": "First Each Pick",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Generated via Workflow"
+        }
+      ],
+      "shipped_contents": [
+        {
+          "material": "TOMTESTCS",
+          "packaging": "CA",
+          "base_amount": 1,
+          "packaged_amount": 1,
+          "net_weight": 10,
+          "gross_weight": 10,
+          "weight_uom": "lb"
+        },
+        {
+          "material": "TOMTESTCS2",
+          "packaging": "CA",
+          "base_amount": 1,
+          "packaged_amount": 1,
+          "net_weight": 10,
+          "gross_weight": 10,
+          "weight_uom": "lb"
+        },
+        {
+          "material": "TOMTESTPK",
+          "packaging": "PK",
+          "base_amount": 19,
+          "packaged_amount": 19,
+          "net_weight": 9.5,
+          "gross_weight": 9.5,
+          "weight_uom": "lb"
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": null,
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "Shiping 4",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 727,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "carrier": "TRANS",
+      "carrier_service": "LTL",
+      "created_on": "2025-10-30T20:36:12.7Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-11-05T11:16:52.277Z",
+      "lookup": "1139",
+      "notes": null,
+      "order_class": "SO",
+      "order_id": 1139,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTCS2-Glot",
+          "material": "TOMTESTCS2",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 2,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS2-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTCS2",
+              "packaging": "CA",
+              "base_amount": 2,
+              "packaged_amount": 2,
+              "net_weight": 20,
+              "gross_weight": 20,
+              "weight_uom": "lb"
+            }
+          ]
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1030-4",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 1073,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": "13456",
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "1139",
+          "notes": "Shipment Closed by [Tom Richman], on [11/5/2025 11:16:52 AM]",
+          "pickup_date": null,
+          "tracking_identifier": "789",
+          "custom_fields": []
+        }
+      ],
+      "status": "Completed",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53635,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53737,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53738,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTCS2",
+          "notes": ""
+        },
+        {
+          "task_id": 53739,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTCS2",
+          "notes": ""
+        },
+        {
+          "task_id": 53744,
+          "operation_code": "Count",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTCS2",
+          "notes": "Discrepancy detected. Expected [17.00000000] and reported [14]"
+        },
+        {
+          "task_id": 53745,
+          "operation_code": "Recount",
+          "order_line_number": 1,
+          "status": "Released",
+          "material": "TOMTESTCS2",
+          "notes": null
+        }
+      ],
+      "shipped_contents": [
+        {
+          "material": "TOMTESTCS2",
+          "packaging": "CA",
+          "base_amount": 2,
+          "packaged_amount": 2,
+          "net_weight": 20,
+          "gross_weight": 20,
+          "weight_uom": "lb"
+        }
+      ]
+    },
+    {
+      "addresses": [],
+      "carrier": "FedEx",
+      "created_on": "2025-11-04T14:51:56.16Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "1141",
+      "notes": null,
+      "order_class": "PO",
+      "order_id": 1141,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTPW1-Glot",
+          "material": "TOMTESTPW1",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 20,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTPW1-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 2,
+          "lot": "TOMTESTPW1-Glot",
+          "material": "TOMTESTPW1",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 12,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Working",
+          "upc": null,
+          "vendor_lot": "TOMTESTPW1-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "UO1002669",
+      "project": "JTL Test",
+      "requested_delivery_date": "2025-11-04T00:00:00Z",
+      "shipments": [
+        {
+          "shipment_id": 1075,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "1141",
+          "notes": "Shipment Closed by [Tom Richman], on [11/5/2025 8:57:53 AM]",
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        },
+        {
+          "shipment_id": 1077,
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": "2025-11-04T00:00:00Z",
+          "expected_warehouse": "2301",
+          "lookup": "1077",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Processing",
+      "vendor_reference": "80025601",
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53661,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPW1",
+          "notes": null
+        },
+        {
+          "task_id": 53663,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPW1",
+          "notes": null
+        },
+        {
+          "task_id": 53665,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPW1",
+          "notes": null
+        },
+        {
+          "task_id": 53667,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPW1",
+          "notes": null
+        },
+        {
+          "task_id": 53669,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPW1",
+          "notes": null
+        },
+        {
+          "task_id": 53671,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPW1",
+          "notes": null
+        },
+        {
+          "task_id": 53686,
+          "operation_code": "Receiving",
+          "order_line_number": 2,
+          "status": "Released",
+          "material": "TOMTESTPW1",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "addresses": [],
+      "created_on": "2025-11-05T07:32:38.1766667Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "1142",
+      "notes": null,
+      "order_class": "BPO",
+      "order_id": 1142,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTPW1-Glot",
+          "material": "TOMTESTPW1",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 12,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Working",
+          "upc": null,
+          "vendor_lot": "TOMTESTPW1-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": null,
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 1076,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "",
+          "notes": "",
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Processing",
+      "vendor_reference": null,
+      "warehouse": null,
+      "tasks": [
+        {
+          "task_id": 53672,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Released",
+          "material": "TOMTESTPW1",
+          "notes": null
+        },
+        {
+          "task_id": 53674,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPW1",
+          "notes": null
+        },
+        {
+          "task_id": 53676,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPW1",
+          "notes": null
+        },
+        {
+          "task_id": 53678,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTPW1",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "addresses": [],
+      "carrier": "FedEx",
+      "created_on": "2025-11-05T12:07:56.0533333Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-11-05T12:53:04.567Z",
+      "lookup": "1143",
+      "notes": null,
+      "order_class": "PO",
+      "order_id": 1143,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTEA7-Glot",
+          "material": "TOMTESTEA7",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 815,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Completed",
+          "upc": null,
+          "vendor_lot": "TOMTESTEA7-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null,
+          "shipped_contents": [
+            {
+              "material": "TOMTESTEA7",
+              "packaging": "EA",
+              "base_amount": 815,
+              "packaged_amount": 815,
+              "net_weight": 407.5,
+              "gross_weight": 407.5,
+              "weight_uom": "lb"
+            }
+          ]
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "UO1006262",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 1078,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "1143",
+          "notes": "Shipment Closed by [Tom Richman], on [11/5/2025 12:53:04 PM]",
+          "pickup_date": null,
+          "tracking_identifier": null,
+          "custom_fields": []
+        }
+      ],
+      "status": "Completed",
+      "vendor_reference": "80025601",
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53750,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTEA7",
+          "notes": null
+        },
+        {
+          "task_id": 53752,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTEA7",
+          "notes": null
+        },
+        {
+          "task_id": 53754,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTEA7",
+          "notes": null
+        },
+        {
+          "task_id": 53756,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTEA7",
+          "notes": null
+        },
+        {
+          "task_id": 53758,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTEA7",
+          "notes": null
+        },
+        {
+          "task_id": 53760,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTEA7",
+          "notes": null
+        },
+        {
+          "task_id": 53762,
+          "operation_code": "Receiving",
+          "order_line_number": 1,
+          "status": "Completed",
+          "material": "TOMTESTEA7",
+          "notes": null
+        }
+      ],
+      "shipped_contents": [
+        {
+          "material": "TOMTESTEA7",
+          "packaging": "EA",
+          "base_amount": 815,
+          "packaged_amount": 815,
+          "net_weight": 407.5,
+          "gross_weight": 407.5,
+          "weight_uom": "lb"
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": "USA",
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "Shiping 5",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 728,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "carrier": "UPS",
+      "carrier_service": "Ground",
+      "created_on": "2025-11-05T14:45:01.7866667Z",
+      "custom_fields": [],
+      "fulfilled_on": null,
+      "lookup": "1144",
+      "notes": null,
+      "order_class": "Ecom",
+      "order_id": 1144,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTEA7-Glot",
+          "material": "TOMTESTEA7",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 12,
+          "packaging": "EA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Working",
+          "upc": null,
+          "vendor_lot": "TOMTESTEA7-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1105-1",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 1079,
+          "actual_warehouse": "2301",
+          "available_date": null,
+          "back_order": false,
+          "bill_of_lading": null,
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "1144",
+          "notes": null,
+          "pickup_date": null,
+          "tracking_identifier": "1ZXXXXXXXXXXXXXXXX",
+          "custom_fields": []
+        }
+      ],
+      "status": "Processing",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": [
+        {
+          "task_id": 53791,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53794,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53797,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53804,
+          "operation_code": "Annotate",
+          "order_line_number": null,
+          "status": "Completed",
+          "material": null,
+          "notes": "Cartonization executed at order-processing with 'AWI' configuration"
+        },
+        {
+          "task_id": 53805,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Released",
+          "material": "TOMTESTEA7",
+          "notes": null
+        },
+        {
+          "task_id": 53806,
+          "operation_code": "Picking",
+          "order_line_number": 1,
+          "status": "Released",
+          "material": "TOMTESTEA7",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "addresses": [
+        {
+          "attention_of": null,
+          "city": "Des Moines",
+          "country": "USA",
+          "email": null,
+          "fax": null,
+          "first_name": "Test Case",
+          "greeting": null,
+          "is_residential": null,
+          "last_name": "Shiping 6",
+          "line_1": "3912 Pleasant St",
+          "line_2": null,
+          "line_3": null,
+          "line_4": null,
+          "lookup": null,
+          "middle_name": null,
+          "name": "Test Case",
+          "notes": null,
+          "order_address_id": 729,
+          "phone": "5151112222",
+          "postal_code": "50312",
+          "reference": null,
+          "state": "IA",
+          "title": null,
+          "type": "Billing"
+        }
+      ],
+      "carrier": "TRANS",
+      "carrier_service": "LTL",
+      "created_on": "2025-11-06T13:27:44.9266667Z",
+      "custom_fields": [],
+      "fulfilled_on": "2025-11-05T11:16:52.277Z",
+      "lookup": "1145",
+      "notes": null,
+      "order_class": "SO",
+      "order_id": 1145,
+      "order_lines": [
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 1,
+          "lot": "TOMTESTCS2-Glot",
+          "material": "TOMTESTCS2",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 2,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Created",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS2-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        },
+        {
+          "child_lines": null,
+          "custom_fields": null,
+          "gross_weight": null,
+          "license_plate": null,
+          "line_number": 2,
+          "lot": "TOMTESTCS-Glot",
+          "material": "TOMTESTCS",
+          "net_weight": null,
+          "notes": null,
+          "order_id": null,
+          "packaged_amount": 1,
+          "packaging": "CA",
+          "parent_line_number": null,
+          "serial_number": null,
+          "shipment": null,
+          "status": "Created",
+          "upc": null,
+          "vendor_lot": "TOMTESTCS-Glot",
+          "weight_uom": null,
+          "cost": null,
+          "price": null
+        }
+      ],
+      "owner": "JTL Test",
+      "owner_reference": "1106-1",
+      "project": "JTL Test",
+      "requested_delivery_date": null,
+      "shipments": [
+        {
+          "shipment_id": 1080,
+          "available_date": null,
+          "back_order": null,
+          "bill_of_lading": "10000000000000822",
+          "expected_date": null,
+          "expected_warehouse": "2301",
+          "lookup": "1080",
+          "notes": "Shipment Closed by [Tom Richman], on [11/5/2025 11:16:52 AM]",
+          "pickup_date": null,
+          "tracking_identifier": "",
+          "custom_fields": []
+        }
+      ],
+      "status": "Created",
+      "vendor_reference": null,
+      "warehouse": "2301",
+      "tasks": []
+    }
+  ]
+}

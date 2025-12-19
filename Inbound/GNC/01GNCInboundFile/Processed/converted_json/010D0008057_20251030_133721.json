@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "",
+      "carrier_service": "",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "TWIN LAKE ACE 18011",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "5480 HOLTON RD",
+          "line_2": "",
+          "city": "TWIN LAKE",
+          "state": "MI",
+          "postal_code": "49457",
+          "country": "US",
+          "lookup": "",
+          "phone": "2311824010",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "TWIN",
+          "middle_name": "",
+          "last_name": "LAKE ACE 18011",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008057
+        },
+        {
+          "type": "Billing",
+          "name": "TWIN LAKE ACE 18011",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "5480 HOLTON RD",
+          "line_2": "",
+          "city": "",
+          "state": "",
+          "postal_code": "",
+          "country": "",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "TWIN",
+          "middle_name": "",
+          "last_name": "LAKE ACE 18011",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008057
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 0,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 100008057,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

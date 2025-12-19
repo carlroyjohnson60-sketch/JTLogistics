@@ -1,0 +1,101 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "00004976",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "GRND",
+      "carrier_service": "GRND",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "Cubesmart Self storage Unit C2",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "Cubesmart Self storage #C202",
+          "line_2": "Attn: Laura Paul",
+          "city": "Shrewsbury",
+          "state": "MA",
+          "postal_code": "01545",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Cubesmart",
+          "middle_name": "",
+          "last_name": "Self storage Unit C2",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004976
+        },
+        {
+          "type": "Billing",
+          "name": "Cubesmart Self storage Unit C2",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "Cubesmart Self storage #C202",
+          "line_2": "Attn: Laura Paul",
+          "city": "Shrewsbury",
+          "state": "MA",
+          "postal_code": "01545",
+          "country": "US",
+          "lookup": "",
+          "phone": "3054075744",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Cubesmart",
+          "middle_name": "",
+          "last_name": "Self storage Unit C2",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004976
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "56567",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 2,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000004976,
+          "cost": 0,
+          "price": 0
+        },
+        {
+          "line_number": 2,
+          "material": "58027",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 4,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000004976,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "00004976",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

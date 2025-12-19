@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "00004999",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "GRND",
+      "carrier_service": "GRND",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "Walmart #2819 Jeana Ellis",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "2100 N Main St.",
+          "line_2": "",
+          "city": "Bluffton",
+          "state": "IN",
+          "postal_code": "46714",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Walmart",
+          "middle_name": "",
+          "last_name": "#2819 Jeana Ellis",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004999
+        },
+        {
+          "type": "Billing",
+          "name": "Walmart #2819 Jeana Ellis",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "2100 N Main St.",
+          "line_2": "",
+          "city": "Bluffton",
+          "state": "IN",
+          "postal_code": "46714",
+          "country": "US",
+          "lookup": "",
+          "phone": "2604156858",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Walmart",
+          "middle_name": "",
+          "last_name": "#2819 Jeana Ellis",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004999
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "58029",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 1,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000004999,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "00004999",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+version: 1
+
+auth:
+  token_url: "https://login.microsoftonline.com/8d354a2c-965a-4c6f-af22-d707a39c0492/oauth2/v2.0/token"
+  client_id: "8aa5c656-e7ec-423a-9436-ef8ab3cd2eef"
+  client_secret: "sFG8Q~u5gPdx8ipVe3DkwXsZPrBo9R-~KVsx4dct"
+  scope: "api://acbf078d-4eb8-477b-b0d8-62bb46bdbc37/.default"
+  cache_file: "token_cache.json"
+
+api:
+  host: "jtl-footprint-api.wavelength.host"
+  port: 443
+  base_url: "https://jtl-footprint-api.wavelength.host"
+  timeout: 30
+  headers:
+    Content-Type: "application/json"
+    Accept: "application/json"
+
+globals:
+  working_dir: "./"
+  tmp_dir: "./tmp"
+
+db:
+  enabled: false
+  host: "localhost"
+  port: 3306
+  user: "root"
+  password: ""
+  database: "files_responses"
+
+email:
+  enabled: true
+  smtp_host: "10.19.0.38"
+  smtp_port: 25
+  username: ""
+  password: ""
+  from: "noreply@jtlogistics.com"
+  to: "carl.johnson@jtlogistics.com,tom.richman@jtlogistics.com"
+
+partners:
+  GNC:
+    sftp:
+      host: "sftp.jtlogistics.com"
+      port: 22
+      username: "dtx-gnc"
+      password: "&c6BsRHtATnH"
+
+    inbound:
+
+      01GNCInboundFile:
+        description: "GNC inbound orders fixed-width -> JSON"
+        use_sftp: true
+        local_input_dir: "Inbound/GNC/01GNCInboundFile/Input"
+        local_processed_dir: "Inbound/GNC/01GNCInboundFile/Processed"
+        output_json_dir: "Inbound/GNC/01GNCInboundFile/Processed/converted_json"
+        converter: "Inbound/GNC/01GNCInboundFile/gnc_converter.py"
+        start_pattern: "OED"
+        split:
+          enabled: true
+          field_start: 15
+          field_end: 25
+        sftp:
+          remote_input_dir: "/Incoming"
+        api:
+          method: "POST"
+          endpoint: "/api/sales_orders/create"
+          timeout: 30
+          retry:
+            max_attempts: 3
+            delay_seconds: 5
+
+      04GNCInboundFile:
+        description: "GNC inventory/ASN inbound (04)"
+        use_sftp: true
+        local_input_dir: "Inbound/GNC/04GNCInboundFile/Input"
+        local_processed_dir: "Inbound/GNC/04GNCInboundFile/Processed"
+        output_json_dir: "Inbound/GNC/04GNCInboundFile/Processed/converted_json"
+        converter: "Inbound/GNC/04GNCInboundFile/GNCASNConverter.py"
+        start_pattern: "04" 
+        split:
+          enabled: false
+        sftp:
+          remote_input_dir: "/inbound/gnc/04"
+        api:
+          method: "POST"
+          endpoint: "/api/v1/gnc/asn"
+          timeout: 30
+          retry:
+            max_attempts: 3
+            delay_seconds: 5
+
+    outbound:
+
+      02GNCOutboundFile:
+        description: "GNC outbound orders - get sales orders"
+        use_sftp: true
+        payload_file: "Outbound/GNC/02GNCOutboundFile/payload.json"
+        local_output_dir: "Outbound/GNC/02GNCOutboundFile/Processed"
+        output_file_name: "02GNCOutboundFile_{datetime}.csv"
+        filename_pattern: "{basename}_{datetime}{ext}"
+        converter: "Outbound/GNC/02GNCOutboundFile/OB_SO_Get_Converter.py"
+        sftp:
+          remote_output_dir: "/Outgoing"
+        api:
+          method: "POST"
+          endpoint: "/api/sales_orders/get"
+          timeout: 100
+
+      03GNCOutboundFile:
+        description: "GNC outbound orders status"
+        use_sftp: true
+        payload_file: "Outbound/GNC/03GNCOutboundFile/payload.json"
+        local_output_dir: "Outbound/GNC/03GNCOutboundFile/Processed"
+        output_file_name: "03GNCOutboundFile_{datetime}.csv"
+        filename_pattern: "{basename}_{datetime}{ext}"
+        converter: "Outbound/GNC/03GNCOutboundFile/OB_SO_Get_Converter.py"
+        sftp:
+          remote_output_dir: "/Outgoing"
+        api:
+          method: "POST"
+          endpoint: "/api/purchase_orders/get"
+          timeout: 100
+
+      05GNCOutboundFile:
+        description: "GNC outbound inventory"
+        use_sftp: true
+        payload_file: "Outbound/GNC/05GNCOutboundFile/payload.json"
+        local_output_dir: "Outbound/GNC/05GNCOutboundFile/Processed"
+        output_file_name: "05GNCOutboundFile_{datetime}.dat"
+        converter: "Outbound/GNC/05GNCOutboundFile/inventoryGetConverter.py"
+        sftp:
+          remote_output_dir: "/Outgoing"
+        api:
+          method: "POST"
+          endpoint: "/api/inventory/adjustments/get"
+          timeout: 100
+
+      06GNCOutboundFile:
+        description: "GNC outbound orders - get sales orders"
+        use_sftp: true
+        payload_file: "Outbound/GNC/06GNCOutboundFile/payload.json"
+        local_output_dir: "Outbound/GNC/06GNCOutboundFile/Processed"
+        output_file_name: "06GNCOutboundFile_{datetime}.dat"
+        filename_pattern: "06GNCOutboundFile_{datetime}.dat"
+        converter: "Outbound/GNC/06GNCOutboundFile/GNCJsonToDatConverterSalesOrderGet.py"
+        sftp:
+          remote_output_dir: "/Outgoing"
+        api:
+          method: "POST"
+          endpoint: "/api/purchase_orders/get"
+          timeout: 100
+
+      07GNCOutboundFile:
+        description: "GNC outbound material get"
+        use_sftp: true
+        payload_file: "Outbound/GNC/07GNCOutboundFile/payload.json"
+        local_output_dir: "Outbound/GNC/07GNCOutboundFile/Processed"
+        output_file_name: "07GNCOutboundFile_{datetime}.dat"
+        filename_pattern: "{basename}_{datetime}{ext}"
+        converter: "Outbound/GNC/07GNCOutboundFile/MaterialsToDatConverter.py"
+        sftp:
+          remote_output_dir: "/Outgoing"
+        api:
+          method: "POST"
+          endpoint: "/api/materials/get"
+          timeout: 100
+
+  FC:
+    sftp:
+      host: "sftp.jtlogistics.com"
+      port: 22
+      username: "dtx-fc"
+      password: "NjntnT?X7kEd"
+
+    inbound:
+
+      01FCInboundFile:
+        description: "FC inbound orders (01)"
+        use_sftp: true
+        local_input_dir: "Inbound/FC/01FCInboundFile/Input"
+        local_processed_dir: "Inbound/FC/01FCInboundFile/Processed"
+        output_json_dir: "Inbound/FC/01FCInboundFile/Processed/converted_json"
+        converter: "Inbound/FC/01FCInboundFile/FCorders_converter.py"
+        start_pattern: "2025" 
+        split:
+          enabled: false
+        sftp:
+          remote_input_dir: "/Incoming"
+        api:
+          method: "POST"
+          endpoint: "/api/sales_orders/create"
+          timeout: 300
+          retry:
+            max_attempts: 3
+            delay_seconds: 5
+
+      04FCInboundFile:
+        description: "FC inventory/ASN inbound (04)"
+        use_sftp: true
+        local_input_dir: "Inbound/FC/04FCInboundFile/Input"
+        local_processed_dir: "Inbound/FC/04FCInboundFile/Processed"
+        output_json_dir: "Inbound/FC/04FCInboundFile/Processed/converted_json"
+        converter: "Inbound/FC/04FCInboundFile/FCASNConverter.py"
+        start_pattern: "04" 
+        split:
+          enabled: false
+        sftp:
+          remote_input_dir: "/Incoming"
+        api:
+          method: "POST"
+          endpoint: "/api/purchase_orders/create"
+          timeout: 30
+          retry:
+            max_attempts: 3
+            delay_seconds: 5
+
+    outbound:
+
+      02FCOutboundFile:
+        description: "FC outbound orders"
+        use_sftp: true
+        payload_file: "Outbound/FC/02FCOutboundFile/payload.json"
+        local_output_dir: "Outbound/FC/02FCOutboundFile/Processed"
+        output_file_name: "02FCOutboundFile_{datetime}.csv"
+        filename_pattern: "{basename}_{datetime}{ext}"
+        converter: "Outbound/FC/02FCOutboundFile/OB_SO_Get_Converter.py"
+        sftp:
+          remote_output_dir: "/Outgoing"
+        api:
+          method: "POST"
+          endpoint: "api/sales_orders/get"
+          timeout: 100
+
+      03FCOutboundFile:
+        description: "FC outbound orders status"
+        use_sftp: true
+        payload_file: "Outbound/FC/03FCOutboundFile/payload.json"
+        local_output_dir: "Outbound/FC/03FCOutboundFile/Processed"
+        output_file_name: "03FCOutboundFile_{datetime}.dat"
+        filename_pattern: "03FCOutboundFile_{datetime}.dat"
+        converter: "Outbound/FC/03FCOutboundFile/JsonToDatConverter.py"
+        sftp:
+          remote_output_dir: "/Outgoing"
+        api:
+          method: "POST"
+          endpoint: "/api/purchase_orders/get"
+          timeout: 100
+
+      05FCOutboundFile:
+        description: "FC outbound inventory"
+        use_sftp: true
+        payload_file: "Outbound/FC/05FCOutboundFile/payload.json"
+        local_output_dir: "Outbound/FC/05FCOutboundFile/Processed"
+        output_file_name: "05FCOutboundFile_{datetime}.dat"
+        filename_pattern: "{basename}_{datetime}{ext}"
+        converter: "Outbound/FC/05FCOutboundFile/FCJsonToDatConverterInventoryAdjustments.py"
+        sftp:
+          remote_output_dir: "/Outgoing"
+        api:
+          method: "POST"
+          endpoint: "/api/inventory/adjustments/get"
+          timeout: 100
+
+      07FCOutboundFile:
+        description: "FC outbound material get"
+        use_sftp: true
+        payload_file: "Outbound/FC/07FCOutboundFile/payload.json"
+        local_output_dir: "Outbound/FC/07FCOutboundFile/Processed"
+        output_file_name: "07FCOutboundFile_{datetime}.dat"
+        filename_pattern: "{basename}_{datetime}{ext}"
+        converter: "Outbound/FC/07FCOutboundFile/FCJsonToDatConverterInventoryGet.py"
+        sftp:
+          remote_output_dir: "/Outgoing"
+        api:
+          method: "POST"
+          endpoint: "/api/materials/get"
+          timeout: 100

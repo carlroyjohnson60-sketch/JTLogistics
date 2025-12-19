@@ -1,0 +1,99 @@
+{
+  "orders": [
+    {
+      "owner": "FC",
+      "project": "FC",
+      "order_class": "Ecom",
+      "owner_reference": "900357837GR10660100",
+      "vendor_reference": "",
+      "requested_delivery_date": "2025-04-06T00:00:00Z",
+      "warehouse": "2301",
+      "carrier": "GROUND",
+      "carrier_service": "GROUND",
+      "addresses": [
+        {
+          "type": "Billing",
+          "name": "JTEKT  North America",
+          "reference": "JTEKT  North America",
+          "attention_of": "",
+          "line_1": "7 Research Dr",
+          "line_2": "",
+          "city": "Greenville",
+          "state": "SC",
+          "postal_code": "29607",
+          "country": "USA",
+          "lookup": "",
+          "phone": "864 2770400",
+          "email": "erin.wilson@jtekt.com",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "JTEKT",
+          "middle_name": "",
+          "last_name": " North America",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 90035783710660100
+        },
+        {
+          "type": "Shipping",
+          "name": "Erin Wilson",
+          "reference": "JTEKT",
+          "attention_of": "JTEKT",
+          "line_1": "201 Ackerman Court",
+          "line_2": "",
+          "city": "Greenville",
+          "state": "SC",
+          "postal_code": "29607",
+          "country": "USA",
+          "lookup": "",
+          "phone": "8645663146",
+          "email": "erin.wilson@jtekt.com",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Erin",
+          "middle_name": "",
+          "last_name": "Wilson",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 90035783710660100
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "78433",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 15,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 90035783710660100,
+          "cost": 0,
+          "price": 45.0,
+          "delivery_dates": {
+            "earliest": null,
+            "latest": null
+          },
+          "ship_dates": {
+            "earliest": null,
+            "latest": null
+          },
+          "backorder_flag": "R",
+          "comment": "",
+          "status": "",
+          "vendor_status": "OP"
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "900357837GR10660100",
+      "instructions": [],
+      "currency": "USD",
+      "notes": "Please use the clients UPS account 3F1354"
+    }
+  ]
+}

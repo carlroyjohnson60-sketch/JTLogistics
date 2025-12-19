@@ -1,0 +1,101 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "00004979",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "GRND",
+      "carrier_service": "GRND",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "Baltimore N CubeSmart Storage",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "Baltimore CubeSmart Storage",
+          "line_2": "8432 Pulaski Hwy",
+          "city": "Baltimore",
+          "state": "MD",
+          "postal_code": "21237",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Baltimore",
+          "middle_name": "",
+          "last_name": "N CubeSmart Storage",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004979
+        },
+        {
+          "type": "Billing",
+          "name": "Baltimore N CubeSmart Storage",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "Baltimore CubeSmart Storage",
+          "line_2": "8432 Pulaski Hwy",
+          "city": "Baltimore",
+          "state": "MD",
+          "postal_code": "21237",
+          "country": "US",
+          "lookup": "",
+          "phone": "2402171642",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Baltimore",
+          "middle_name": "",
+          "last_name": "N CubeSmart Storage",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004979
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "58027",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 2,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000004979,
+          "cost": 0,
+          "price": 0
+        },
+        {
+          "line_number": 2,
+          "material": "58030",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 4,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000004979,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "00004979",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

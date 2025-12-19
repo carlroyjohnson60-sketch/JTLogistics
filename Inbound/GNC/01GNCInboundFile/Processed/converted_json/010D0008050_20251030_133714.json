@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "",
+      "carrier_service": "",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "OSCODA ACE HARDWARE  15769",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "5112 N US HIGHWAY 23",
+          "line_2": "",
+          "city": "OSCODA",
+          "state": "MI",
+          "postal_code": "48750",
+          "country": "US",
+          "lookup": "",
+          "phone": "9899566304",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "OSCODA",
+          "middle_name": "",
+          "last_name": "ACE HARDWARE  15769",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008050
+        },
+        {
+          "type": "Billing",
+          "name": "OSCODA ACE HARDWARE  15769",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "5112 N US HIGHWAY 23",
+          "line_2": "",
+          "city": "",
+          "state": "",
+          "postal_code": "",
+          "country": "",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "OSCODA",
+          "middle_name": "",
+          "last_name": "ACE HARDWARE  15769",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008050
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 0,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 100008050,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "00004974",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "GRND",
+      "carrier_service": "GRND",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "Ethan Craig JB Seasonal",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "8451 Colerain Ave",
+          "line_2": "",
+          "city": "Cincinnati",
+          "state": "OH",
+          "postal_code": "45239",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Ethan",
+          "middle_name": "",
+          "last_name": "Craig JB Seasonal",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004974
+        },
+        {
+          "type": "Billing",
+          "name": "Ethan Craig JB Seasonal",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "8451 Colerain Ave",
+          "line_2": "",
+          "city": "Cincinnati",
+          "state": "OH",
+          "postal_code": "45239",
+          "country": "US",
+          "lookup": "",
+          "phone": "8596386441",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Ethan",
+          "middle_name": "",
+          "last_name": "Craig JB Seasonal",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004974
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "58036",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 1,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000004974,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "00004974",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

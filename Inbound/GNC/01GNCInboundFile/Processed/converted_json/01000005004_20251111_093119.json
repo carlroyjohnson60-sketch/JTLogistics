@@ -1,0 +1,101 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "00005004",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "GRND",
+      "carrier_service": "GRND",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "Kevin Seim",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "2401 S Wilmington St",
+          "line_2": "Unit 3301",
+          "city": "Raleigh",
+          "state": "NC",
+          "postal_code": "27603",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Kevin",
+          "middle_name": "",
+          "last_name": "Seim",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000005004
+        },
+        {
+          "type": "Billing",
+          "name": "Kevin Seim",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "2401 S Wilmington St",
+          "line_2": "Unit 3301",
+          "city": "Raleigh",
+          "state": "NC",
+          "postal_code": "27603",
+          "country": "US",
+          "lookup": "",
+          "phone": "8282289409",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Kevin",
+          "middle_name": "",
+          "last_name": "Seim",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000005004
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "52724",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 7,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000005004,
+          "cost": 0,
+          "price": 0
+        },
+        {
+          "line_number": 2,
+          "material": "57624",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 21,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000005004,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "00005004",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

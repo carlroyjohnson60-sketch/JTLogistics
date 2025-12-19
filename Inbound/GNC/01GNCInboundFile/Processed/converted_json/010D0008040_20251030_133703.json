@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "",
+      "carrier_service": "",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "NEWBERRY ACE HARDWARE 19193",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "7320 STATE HIGHWAY M123",
+          "line_2": "",
+          "city": "NEWBERRY",
+          "state": "MI",
+          "postal_code": "49868",
+          "country": "US",
+          "lookup": "",
+          "phone": "9066293275",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "NEWBERRY",
+          "middle_name": "",
+          "last_name": "ACE HARDWARE 19193",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008040
+        },
+        {
+          "type": "Billing",
+          "name": "NEWBERRY ACE HARDWARE 19193",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "7320 STATE HIGHWAY M123",
+          "line_2": "",
+          "city": "",
+          "state": "",
+          "postal_code": "",
+          "country": "",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "NEWBERRY",
+          "middle_name": "",
+          "last_name": "ACE HARDWARE 19193",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008040
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 0,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 100008040,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

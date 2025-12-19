@@ -1,0 +1,4 @@
+PyYAML>=5.3
+requests>=2.20
+mysql-connector-python>=8.0
+paramiko>=2.7

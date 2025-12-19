@@ -1,0 +1,99 @@
+{
+  "orders": [
+    {
+      "owner": "FC",
+      "project": "FC",
+      "order_class": "Ecom",
+      "owner_reference": "900357937GR10680377",
+      "vendor_reference": "",
+      "requested_delivery_date": "2025-04-07T00:00:00Z",
+      "warehouse": "2301",
+      "carrier": "INTLP",
+      "carrier_service": "INTLP",
+      "addresses": [
+        {
+          "type": "Billing",
+          "name": "Franklin Covey Puerto Rico",
+          "reference": "FranklinCovey Puerto Rico Inc",
+          "attention_of": "",
+          "line_1": "Suite 1212 MSC 388 100 Gran Blvd. Paseos",
+          "line_2": "",
+          "city": "San Juan",
+          "state": "PR",
+          "postal_code": "009265955",
+          "country": "USA",
+          "lookup": "",
+          "phone": "787 6793665",
+          "email": "iarroyo@franklincoveypr.com",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Suite",
+          "middle_name": "",
+          "last_name": "1212 MSC 388 100 Gran Blvd. Paseos",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 90035793710680377
+        },
+        {
+          "type": "Shipping",
+          "name": "Massiel Rivas Depto de Recursos Humanos",
+          "reference": "ColgatePalmolive  DR",
+          "attention_of": "Massiel Rivas Depto de Recursos Humanos",
+          "line_1": "Torre Malaga VII No. 38",
+          "line_2": "bajar al piso 1 donde la recepcionista",
+          "city": "NACO",
+          "state": "..",
+          "postal_code": "00000",
+          "country": "DOM",
+          "lookup": "",
+          "phone": "7872735073",
+          "email": "aapdradmin@franklincoveypr.com",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Torre",
+          "middle_name": "",
+          "last_name": "Malaga VII No. 38",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 90035793710680377
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "77897",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "EA",
+          "packaged_amount": 4,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 90035793710680377,
+          "cost": 0,
+          "price": 39.55,
+          "delivery_dates": {
+            "earliest": null,
+            "latest": null
+          },
+          "ship_dates": {
+            "earliest": null,
+            "latest": null
+          },
+          "backorder_flag": "R",
+          "comment": "",
+          "status": "",
+          "vendor_status": "OP"
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "900357937GR10680377",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

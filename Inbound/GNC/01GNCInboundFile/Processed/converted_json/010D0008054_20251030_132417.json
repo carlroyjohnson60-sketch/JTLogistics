@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "",
+      "carrier_service": "",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "CHEBOYGAN ACE HDWE 17638",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "712 S MAIN ST",
+          "line_2": "",
+          "city": "CHEBOYGAN",
+          "state": "MI",
+          "postal_code": "49721",
+          "country": "US",
+          "lookup": "",
+          "phone": "2311263019",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "CHEBOYGAN",
+          "middle_name": "",
+          "last_name": "ACE HDWE 17638",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008054
+        },
+        {
+          "type": "Billing",
+          "name": "CHEBOYGAN ACE HDWE 17638",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "712 S MAIN ST",
+          "line_2": "",
+          "city": "",
+          "state": "",
+          "postal_code": "",
+          "country": "",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "CHEBOYGAN",
+          "middle_name": "",
+          "last_name": "ACE HDWE 17638",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008054
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 0,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 100008054,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

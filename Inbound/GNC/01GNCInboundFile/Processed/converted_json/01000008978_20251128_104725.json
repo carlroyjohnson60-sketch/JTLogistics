@@ -1,0 +1,101 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "00004978",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "GRND",
+      "carrier_service": "GRND",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "Annapolis CubeSmart Storage",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "Annapolis CubeSmart Storage",
+          "line_2": "5335 Beech Rd",
+          "city": "Temple Hills",
+          "state": "MD",
+          "postal_code": "20748",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Annapolis",
+          "middle_name": "",
+          "last_name": "CubeSmart Storage",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000008978
+        },
+        {
+          "type": "Billing",
+          "name": "Annapolis CubeSmart Storage",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "Annapolis CubeSmart Storage",
+          "line_2": "5335 Beech Rd",
+          "city": "Temple Hills",
+          "state": "MD",
+          "postal_code": "20748",
+          "country": "US",
+          "lookup": "",
+          "phone": "2402171642",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Annapolis",
+          "middle_name": "",
+          "last_name": "CubeSmart Storage",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000008978
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "58030",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 4,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000008978,
+          "cost": 0,
+          "price": 0
+        },
+        {
+          "line_number": 2,
+          "material": "58027",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 2,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000008978,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "00004978",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

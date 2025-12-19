@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "",
+      "carrier_service": "",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "LEWISTON ACE HARDWARE 11795",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "4910 SALLING AVE",
+          "line_2": "",
+          "city": "LEWISTON",
+          "state": "MI",
+          "postal_code": "49756",
+          "country": "US",
+          "lookup": "",
+          "phone": "9899794910",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "LEWISTON",
+          "middle_name": "",
+          "last_name": "ACE HARDWARE 11795",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008047
+        },
+        {
+          "type": "Billing",
+          "name": "LEWISTON ACE HARDWARE 11795",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "4910 SALLING AVE",
+          "line_2": "",
+          "city": "",
+          "state": "",
+          "postal_code": "",
+          "country": "",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "LEWISTON",
+          "middle_name": "",
+          "last_name": "ACE HARDWARE 11795",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008047
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 0,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 100008047,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

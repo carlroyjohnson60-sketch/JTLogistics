@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "",
+      "carrier_service": "",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "AU GRES ACE 18304",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "236 W HURON RD",
+          "line_2": "",
+          "city": "AU GRES",
+          "state": "MI",
+          "postal_code": "48703",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "AU",
+          "middle_name": "",
+          "last_name": "GRES ACE 18304",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008059
+        },
+        {
+          "type": "Billing",
+          "name": "AU GRES ACE 18304",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "236 W HURON RD",
+          "line_2": "",
+          "city": "",
+          "state": "",
+          "postal_code": "",
+          "country": "",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "AU",
+          "middle_name": "",
+          "last_name": "GRES ACE 18304",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008059
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 0,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 100008059,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

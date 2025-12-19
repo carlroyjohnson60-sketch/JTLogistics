@@ -1,0 +1,7 @@
+{
+    "filters": {
+        "owner": "JTL Test",
+        "completed_from": "2025-12-12T00:00:00.000Z",
+        "completed_to": "2025-12-18T23:59:59.999Z"
+    }
+}

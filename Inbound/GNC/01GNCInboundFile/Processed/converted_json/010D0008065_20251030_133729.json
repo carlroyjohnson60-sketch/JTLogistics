@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "",
+      "carrier_service": "",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "Ransom Brothers 18201",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "1441 MAIN ST",
+          "line_2": "",
+          "city": "RAMONA",
+          "state": "CA",
+          "postal_code": "92065",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Ransom",
+          "middle_name": "",
+          "last_name": "Brothers 18201",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008065
+        },
+        {
+          "type": "Billing",
+          "name": "Ransom Brothers 18201",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "1441 MAIN ST",
+          "line_2": "",
+          "city": "",
+          "state": "",
+          "postal_code": "",
+          "country": "",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Ransom",
+          "middle_name": "",
+          "last_name": "Brothers 18201",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008065
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 0,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 100008065,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

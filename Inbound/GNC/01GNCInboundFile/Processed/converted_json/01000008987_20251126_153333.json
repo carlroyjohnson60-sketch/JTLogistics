@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "00004987",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "GRND",
+      "carrier_service": "GRND",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "Public Storage #25558 Kobe Gri",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "2516 Wabash Ave",
+          "line_2": "",
+          "city": "St Paul",
+          "state": "MN",
+          "postal_code": "55114",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Public",
+          "middle_name": "",
+          "last_name": "Storage #25558 Kobe Gri",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000008987
+        },
+        {
+          "type": "Billing",
+          "name": "Public Storage #25558 Kobe Gri",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "2516 Wabash Ave",
+          "line_2": "",
+          "city": "St Paul",
+          "state": "MN",
+          "postal_code": "55114",
+          "country": "US",
+          "lookup": "",
+          "phone": "8155300818",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Public",
+          "middle_name": "",
+          "last_name": "Storage #25558 Kobe Gri",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000008987
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "57970",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 2,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000008987,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "00004987",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

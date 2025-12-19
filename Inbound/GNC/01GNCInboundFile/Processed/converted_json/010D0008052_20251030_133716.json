@@ -1,0 +1,87 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "",
+      "carrier_service": "",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "AUBURN ACE HARDWARE 17383",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "990 W MIDLAND RD",
+          "line_2": "",
+          "city": "AUBURN",
+          "state": "MI",
+          "postal_code": "48611",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "AUBURN",
+          "middle_name": "",
+          "last_name": "ACE HARDWARE 17383",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008052
+        },
+        {
+          "type": "Billing",
+          "name": "AUBURN ACE HARDWARE 17383",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "990 W MIDLAND RD",
+          "line_2": "",
+          "city": "",
+          "state": "",
+          "postal_code": "",
+          "country": "",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "AUBURN",
+          "middle_name": "",
+          "last_name": "ACE HARDWARE 17383",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 100008052
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 0,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 100008052,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

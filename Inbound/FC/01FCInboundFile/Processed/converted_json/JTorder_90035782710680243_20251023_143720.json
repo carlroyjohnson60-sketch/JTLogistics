@@ -1,0 +1,99 @@
+{
+  "orders": [
+    {
+      "owner": "FC",
+      "project": "FC",
+      "order_class": "Ecom",
+      "owner_reference": "900357827GR10680243",
+      "vendor_reference": "",
+      "requested_delivery_date": "2025-04-04T00:00:00Z",
+      "warehouse": "2301",
+      "carrier": "INTLP",
+      "carrier_service": "INTLP",
+      "addresses": [
+        {
+          "type": "Billing",
+          "name": "Greatness Center Mxico S.A. de C.V.",
+          "reference": "GREATNESS CENTER MEXICO S.A. DE ",
+          "attention_of": "",
+          "line_1": "GCM090618S91",
+          "line_2": "Carr. MxicoToluca No. 5420 Int. 2517",
+          "city": "Cuajimalpa",
+          "state": "..",
+          "postal_code": "CDMX. C.P.",
+          "country": "MEX",
+          "lookup": "",
+          "phone": "6552796761",
+          "email": "angel.garrido@franklincovey.mx",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Greatness",
+          "middle_name": "",
+          "last_name": "Center Mxico S.A. de C.V.",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 90035782710680243
+        },
+        {
+          "type": "Shipping",
+          "name": "RAVISA MEXICO S.C A.A. HUGO JESUS VIDALE",
+          "reference": "RAVISA MEXICO S.C",
+          "attention_of": "RAVISA MEXICO S.C A.A. HUGO JESUS VIDALES RESENDEZ PAT.3837",
+          "line_1": "LOCAL 1A",
+          "line_2": "EDIFICIO AGENTES ADUANALES AICM ZONA FED",
+          "city": "CDMX",
+          "state": "..",
+          "postal_code": "15620",
+          "country": "MEX",
+          "lookup": "",
+          "phone": "5557840030 EXT2026",
+          "email": "facturacion@franklincovey.mx",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "RAVISA",
+          "middle_name": "",
+          "last_name": "MEXICO S.C A.A. HUGO JESUS VIDALE",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 90035782710680243
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "78535",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "EA",
+          "packaged_amount": 50,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 90035782710680243,
+          "cost": 0,
+          "price": 5.77,
+          "delivery_dates": {
+            "earliest": null,
+            "latest": null
+          },
+          "ship_dates": {
+            "earliest": null,
+            "latest": null
+          },
+          "backorder_flag": "R",
+          "comment": "",
+          "status": "",
+          "vendor_status": "OP"
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "900357827GR10680243",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

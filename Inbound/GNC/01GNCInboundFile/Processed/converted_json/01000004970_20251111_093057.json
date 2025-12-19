@@ -1,0 +1,101 @@
+{
+  "orders": [
+    {
+      "owner": "GNC",
+      "project": "GNC",
+      "order_class": "Ecom",
+      "owner_reference": "00004970",
+      "vendor_reference": "",
+      "requested_delivery_date": "",
+      "warehouse": "2301",
+      "carrier": "GRND",
+      "carrier_service": "GRND",
+      "addresses": [
+        {
+          "type": "Shipping",
+          "name": "Daniel Lopez",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "16816 Crosshaven Dr",
+          "line_2": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "postal_code": "28278",
+          "country": "US",
+          "lookup": "",
+          "phone": "",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Daniel",
+          "middle_name": "",
+          "last_name": "Lopez",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004970
+        },
+        {
+          "type": "Billing",
+          "name": "Daniel Lopez",
+          "reference": "",
+          "attention_of": "",
+          "line_1": "16816 Crosshaven Dr",
+          "line_2": "",
+          "city": "Charlotte",
+          "state": "NC",
+          "postal_code": "28278",
+          "country": "US",
+          "lookup": "",
+          "phone": "8436704322",
+          "email": "",
+          "fax": "",
+          "title": "",
+          "greeting": "",
+          "first_name": "Daniel",
+          "middle_name": "",
+          "last_name": "Lopez",
+          "is_residential": false,
+          "notes": "",
+          "order_id": 1000004970
+        }
+      ],
+      "order_lines": [
+        {
+          "line_number": 1,
+          "material": "58079",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 5,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000004970,
+          "cost": 0,
+          "price": 0
+        },
+        {
+          "line_number": 2,
+          "material": "58033",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "",
+          "packaged_amount": 5,
+          "upc": "",
+          "child_lines": [],
+          "custom_fields": [],
+          "order_id": 1000004970,
+          "cost": 0,
+          "price": 0
+        }
+      ],
+      "custom_fields": [],
+      "shipments": [],
+      "lookup": "00004970",
+      "instructions": [],
+      "currency": "USD",
+      "notes": ""
+    }
+  ]
+}

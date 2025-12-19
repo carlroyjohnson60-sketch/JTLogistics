@@ -1,0 +1,58 @@
+{
+  "orders": [
+    {
+      "owner": "FC",
+      "project": "FC",
+      "order_class": "Ecom",
+      "lookup": "UO10006287",
+      "status": "A",
+      "owner_reference": "",
+      "vendor_reference": "VN10006852",
+      "requested_delivery_date": "2025-10-31T00:00:00",
+      "warehouse": "2301",
+      "carrier": "VN10006852",
+      "carrier_service": "VN10006852",
+      "addresses": [],
+      "order_lines": [
+        {
+          "line_number": "0001",
+          "material": "",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "EA",
+          "packaged_amount": 12,
+          "upc": "",
+          "custom_fields": [],
+          "child_lines": [],
+          "order_id": ""
+        },
+        {
+          "line_number": "0002",
+          "material": "",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "EA",
+          "packaged_amount": 1,
+          "upc": "",
+          "custom_fields": [],
+          "child_lines": [],
+          "order_id": ""
+        },
+        {
+          "line_number": "0003",
+          "material": "",
+          "vendor_lot": "",
+          "lot": "",
+          "packaging": "EA",
+          "packaged_amount": 2086,
+          "upc": "",
+          "custom_fields": [],
+          "child_lines": [],
+          "order_id": ""
+        }
+      ],
+      "custom_fields": [],
+      "shipments": []
+    }
+  ]
+}
