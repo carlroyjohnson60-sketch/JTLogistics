@@ -90,8 +90,11 @@ class InboundProcessor:
             class FuncWrapper:
                 def __init__(self, f):
                     self._f = f
-                def convert(self, input_path, out_dir):
-                    return self._f(input_path, out_dir)
+                def convert(self, input_path, out_dir, **kwargs):
+                    try:
+                        return self._f(input_path, out_dir, **kwargs)
+                    except TypeError:
+                        return self._f(input_path, out_dir)
             return FuncWrapper(conv_obj)
 
         raise RuntimeError("Unsupported converter type; expected class/instance/function with convert.")
@@ -304,7 +307,7 @@ class InboundProcessor:
                             os.makedirs(out_json_dir, exist_ok=True)
 
                             # Convert piece -> converter may return path(s), list or directory
-                            convert_result = conv.convert(piece, out_json_dir)
+                            convert_result = conv.convert(piece, out_json_dir, cfg=self.cfg, oauth=self.oauth)
                             json_paths = self._resolve_converter_output(convert_result)
 
                             if not json_paths:
@@ -451,10 +454,16 @@ class InboundProcessor:
                             # send HTML table
                             html_body = EmailNotifier.format_html_table(email_rows)
                             self.email.send(subject=f"[{partner}.{flow_name}] Processed Split File {filename}", body=html_body, html=True)
-                        elif not split_config.get('enabled') and not success:
-                            # non-split failure: full response in email body
-                            text_body = f"File: {filename}\n\nAPI Response(s):\n{full_response_text}"
-                            self.email.send(subject=f"[{partner}.{flow_name}] Failed File {filename}", body=text_body)
+                        elif not split_config.get('enabled'):
+                            # non-split: send email for both success and failure
+                            if success:
+                                # success: simple success message
+                                text_body = f"File: {filename}\n\nStatus: SUCCESS\n\nFile processed successfully."
+                                self.email.send(subject=f"[{partner}.{flow_name}] Success File {filename}", body=text_body)
+                            else:
+                                # failure: full response in email body
+                                text_body = f"File: {filename}\n\nAPI Response(s):\n{full_response_text}"
+                                self.email.send(subject=f"[{partner}.{flow_name}] Failed File {filename}", body=text_body)
                     except Exception as email_err:
                         self.logger.error("Failed to send email for %s: %s", filename, email_err, exc_info=True)
 

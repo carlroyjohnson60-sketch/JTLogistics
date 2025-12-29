@@ -1,9 +1,14 @@
 import json
 import os
 import re
+import sys
 from datetime import datetime
 import logging
 import requests
+
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+if CURRENT_DIR not in sys.path:
+    sys.path.insert(0, CURRENT_DIR)
 
 logger = logging.getLogger(__name__)
 
@@ -103,8 +108,21 @@ class GNCOrders_Converter:
     def _to_int(v, default=0):
         return GNCOrders_Converter._extract_int(v, default)
 
+    @staticmethod
+    def _to_float(v, default=0.0):
+        if v is None:
+            return default
+        s = str(v).strip().replace(",", "")
+        if not s:
+            return default
+        s_clean = re.sub(r"[^\d\.\-]", "", s)
+        try:
+            return float(s_clean)
+        except Exception:
+            return default
+
     @classmethod
-    def convert(cls, dat_path: str, output_dir: str) -> str:
+    def convert(cls, dat_path: str, output_dir: str, *, cfg=None, oauth=None) -> str:
         """Convert a .dat file into a JSON order payload; packaging resolved via material API (owner/project GNC)."""
         # Read and clean lines
         with open(dat_path, "r", encoding="utf-8") as f:
@@ -119,10 +137,27 @@ class GNCOrders_Converter:
         # per-conversion cache to avoid repeated API calls for same material
         material_packaging_cache = {}
 
-        # material API defaults (no cfg available here; uses default URL)
+        # material API configuration and authentication
         default_api_url = "https://jtl-footprint-api.wavelength.host/api/materials/get"
-        api_url = default_api_url
-        api_headers = {}
+        api_cfg = (cfg.data.get("material_api") if cfg and getattr(cfg, "data", None) else {}) or {}
+        api_url_cfg = api_cfg.get("url") or default_api_url
+
+        def select_packaging(packagings):
+            """Select packaging with smallest base_packaging_quantity."""
+            if not packagings:
+                return "EA"
+
+            smallest_qty = None
+            selected = "EA"
+
+            for p in packagings:
+                qty = p.get("base_packaging_quantity")
+                if isinstance(qty, int) and qty > 0:
+                    if smallest_qty is None or qty < smallest_qty:
+                        smallest_qty = qty
+                        selected = p.get("packaging", "EA")
+
+            return str(selected).strip() or "EA"
 
         def resolve_packaging_via_api(material_code: str) -> str:
             """Call material API and select packaging for the given material_code (lookup)."""
@@ -142,38 +177,123 @@ class GNCOrders_Converter:
                     "lookup": [key]
                 }
             }
+            headers = {}
+            
+            # Step 1: Get OAuth headers
+            if oauth:
+                try:
+                    auth_headers = oauth.get_auth_headers() or {}
+                    if isinstance(auth_headers, dict):
+                        headers.update(auth_headers)
+                except Exception as e:
+                    logger.warning("OAuth header generation failed: %s", e)
+
+            auth_val = headers.get("Authorization")
+            if not auth_val or not auth_val.startswith("Bearer "):
+                logger.error("Missing or invalid Authorization header for Material API")
+            
+            # Step 2: Overlay global API headers from cfg
+            try:
+                if cfg and getattr(cfg, "data", None):
+                    global_api_headers = cfg.data.get("api", {}).get("headers", {})
+                    if isinstance(global_api_headers, dict):
+                        headers.update(global_api_headers)
+            except Exception:
+                pass
+            
+            # Step 3: Overlay material API-specific headers
+            try:
+                material_api_headers = api_cfg.get("headers", {})
+                if isinstance(material_api_headers, dict):
+                    headers.update(material_api_headers)
+            except Exception:
+                pass
+            
+            # Normalize header keys/values and ensure JSON content-type
+            try:
+                headers = {str(k): str(v) for k, v in (headers.items() if isinstance(headers, dict) else {})}
+                headers.setdefault("Content-Type", "application/json")
+            except Exception:
+                pass
+
+            # prepare a local debug directory to save request/response bodies
+            try:
+                project_root = os.path.abspath(os.path.join(CURRENT_DIR, "..", "..", ".."))
+            except Exception:
+                project_root = os.path.abspath(CURRENT_DIR)
+            responses_dir = os.path.join(project_root, "material_api_responses")
+            try:
+                os.makedirs(responses_dir, exist_ok=True)
+            except Exception:
+                pass
+
+            ts = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+            # save pre-request payload for debugging (only the raw payload expected by API)
+            try:
+                req_fname = os.path.join(responses_dir, f"material_request_{key}_{ts}.json")
+                with open(req_fname, "w", encoding="utf-8") as rf:
+                    json.dump(payload, rf, indent=2, default=str)
+            except Exception as e:
+                logger.debug("Failed to save material API request payload for %s: %s", key, e)
+            # if there are headers (eg. OAuth), save them separately for clarity
+            try:
+                if headers:
+                    hdr_fname = os.path.join(responses_dir, f"material_request_headers_{key}_{ts}.json")
+                    with open(hdr_fname, "w", encoding="utf-8") as hf:
+                        json.dump(headers, hf, indent=2, default=str)
+            except Exception as e:
+                logger.debug("Failed to save material API request headers for %s: %s", key, e)
 
             try:
-                resp = requests.post(api_url, json=payload, headers=api_headers, timeout=30)
-                if resp.ok and resp.content:
-                    try:
-                        data = resp.json()
-                    except Exception:
-                        data = {}
-                    materials = data.get("materials") if isinstance(data, dict) else None
-                    if materials and isinstance(materials, list) and len(materials) > 0:
-                        mat = materials[0]
-                        packagings = mat.get("packagings") or []
-                        if packagings:
-                            if len(packagings) == 1:
-                                pkg = packagings[0].get("packaging")
-                                if pkg:
-                                    packaging = str(pkg).strip()
-                            else:
-                                def base_qty(p):
-                                    try:
-                                        v = p.get("base_packaging_quantity")
-                                        if v is None:
-                                            return float("inf")
-                                        return int(v)
-                                    except Exception:
-                                        return float("inf")
-                                chosen = min(packagings, key=base_qty)
-                                pkg = chosen.get("packaging")
-                                if pkg:
-                                    packaging = str(pkg).strip()
-                else:
-                    logger.debug("Material API returned status %s for material %s", getattr(resp, "status_code", None), key)
+                resp = requests.post(api_url_cfg, json=payload, headers=headers, timeout=int(api_cfg.get("timeout", 30)))
+                # always attempt to persist response info for debugging (status, headers, body)
+                try:
+                    resp_meta = {
+                        "status_code": getattr(resp, "status_code", None) or getattr(resp, "status", None),
+                        "url": getattr(resp, "url", api_url_cfg),
+                        "request_headers": dict(headers) if isinstance(headers, dict) else {},
+                    }
+                except Exception:
+                    resp_meta = {}
+
+                try:
+                    resp_fname = os.path.join(responses_dir, f"material_response_{key}_{ts}.json")
+                    ct = resp.headers.get("content-type", "") if hasattr(resp, 'headers') else ""
+                    body_to_write = None
+                    if isinstance(ct, str) and "json" in ct.lower():
+                        try:
+                            parsed = resp.json()
+                            body_to_write = parsed
+                        except Exception:
+                            body_to_write = None
+                    if body_to_write is None:
+                        try:
+                            body_to_write = resp.text
+                        except Exception:
+                            try:
+                                body_to_write = resp.content.decode('utf-8', errors='replace')
+                            except Exception:
+                                body_to_write = str(getattr(resp, 'content', ''))
+
+                    with open(resp_fname, "w", encoding="utf-8") as rf:
+                        try:
+                            json.dump({"meta": resp_meta, "body": body_to_write}, rf, indent=2, default=str)
+                        except Exception:
+                            rf.write(f"META: {json.dumps(resp_meta, default=str)}\n\n")
+                            rf.write(str(body_to_write))
+                except Exception as e:
+                    logger.debug("Failed to save material API response for %s: %s", key, e)
+
+                try:
+                    data = resp.json()
+                except Exception:
+                    data = {}
+
+                materials = data.get("materials") if isinstance(data, dict) else None
+                if materials:
+                    packagings = materials[0].get("packagings", [])
+                    packaging = select_packaging(packagings)
+
             except Exception as e:
                 logger.warning("Material API lookup failed for %s: %s", key, e)
 

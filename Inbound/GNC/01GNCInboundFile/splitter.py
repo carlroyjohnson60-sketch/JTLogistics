@@ -6,7 +6,7 @@ def split_by_order(input_file, output_dir):
     Order number located at characters 15-25 (1-based) -> python slice [14:25].
     Consecutive lines with same order number go to same file.
     Ignores blank lines. Stops at '#EOT'.
-    Skips the first line if it starts with '#'.
+    Skips the first line if it is blank or starts with '#'.
     Returns list of file paths created.
     """
     os.makedirs(output_dir, exist_ok=True)
@@ -19,13 +19,16 @@ def split_by_order(input_file, output_dir):
         for i, raw in enumerate(f):
             line = raw.rstrip("\n")
 
-            # ✅ Skip the first line if it starts with '#'
-            if i == 0 and line.strip().startswith("#"):
+            # Skip first line if blank OR starts with '#'
+            if i == 0 and (not line.strip() or line.strip().startswith("#")):
                 continue
 
+            # Skip any blank lines
             if not line.strip():
                 continue
-            if line.strip() == "#EOT":
+
+            # Stop processing at EOT
+            if line.lstrip().startswith("#EOT"):
                 break
 
             order_number = line[14:25].strip()  # 1-based 15-25 -> [14:25]
@@ -44,7 +47,7 @@ def split_by_order(input_file, output_dir):
                 current_order = order_number
                 buffer = [line]
 
-        # flush last
+        # flush last group
         if buffer:
             out_path = os.path.join(output_dir, f"{current_order}.txt")
             with open(out_path, "w", encoding="latin-1") as out:

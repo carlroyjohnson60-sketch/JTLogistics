@@ -64,9 +64,9 @@ partners:
         api:
           method: "POST"
           endpoint: "/api/sales_orders/create"
-          timeout: 30
+          timeout: 300
           retry:
-            max_attempts: 3
+            max_attempts: 1
             delay_seconds: 5
 
       04GNCInboundFile:
@@ -191,8 +191,8 @@ partners:
           endpoint: "/api/sales_orders/create"
           timeout: 300
           retry:
-            max_attempts: 3
-            delay_seconds: 5
+            max_attempts: 1
+            delay_seconds: 1
 
       04FCInboundFile:
         description: "FC inventory/ASN inbound (04)"
@@ -275,3 +275,18 @@ partners:
           method: "POST"
           endpoint: "/api/materials/get"
           timeout: 100
+
+      11FCOutboundFile:
+        description: "FC outbound material get"
+        use_sftp: true
+        payload_file: "Outbound/FC/11FCOutboundFile/payload.json"
+        local_output_dir: "Outbound/FC/11FCOutboundFile/Processed"
+        output_file_name: "11FCOutboundFile_{datetime}.csv"
+        converter: "Outbound/FC/11FCOutboundFile/FCDailyClientReportConverterGet.py"
+        sftp:
+          remote_output_dir: "/Outgoing"
+        api:
+          method: "POST"
+          endpoint: "/api/inventory/adjustments/get"
+          timeout: 100
+
