@@ -1,19 +1,20 @@
 import os
 import json
 from collections import defaultdict
+from datetime import datetime
 
 
 class FCDailyClientReportConverterGet:
     """
-    Converts FC Adjustments JSON into CSV inventory format.
-
-    CSV Columns:
-    Material,Available,Committed,On-Hold,Seconds,Waste,Staged,Total
+    Converts inventory JSON (results-based) into Daily Client Inventory CSV.
     """
 
-    def __init__(self):
+    def __init__(self, client_id="357"):
+        self.client_id = client_id
+
         self.headers = [
-            "Material",
+            "Item",
+            "Description",
             "Available",
             "Committed",
             "On-Hold",
@@ -28,44 +29,53 @@ class FCDailyClientReportConverterGet:
         with open(json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        adjustments = data.get("adjustments", [])
+       
+        results = data.get("results", [])
+
+        if not results:
+            print("[WARNING] No inventory records found.")
+            return None
 
         # Aggregate packaged_amount per material
         material_totals = defaultdict(int)
 
-        for adj in adjustments:
-            material = adj.get("material", "")
-            qty = adj.get("packaged_amount", 0) or 0
+        for rec in results:
+            material = rec.get("material", "")
+            qty = rec.get("packaged_amount", 0) or 0
             material_totals[material] += qty
 
-        if not material_totals:
-            print("[WARNING] No adjustment records found.")
-            return None
-
+        # Build rows
         rows = []
-
         for material, available_qty in material_totals.items():
-            row = [
-                material,          # Material
+            rows.append([
+                material,          # Item
+                "",                # Description (not in JSON)
                 available_qty,     # Available
                 0,                 # Committed
                 0,                 # On-Hold
                 0,                 # Seconds
                 0,                 # Waste
-                0,                 # Staged (always 0)
-                available_qty      # Total (Total on Hand)
-            ]
-            rows.append(row)
+                0,                 # Staged
+                available_qty      # Total
+            ])
 
         os.makedirs(output_dir, exist_ok=True)
-        output_path = os.path.join(output_dir, "inventory_adjustments.csv")
+        output_path = os.path.join(output_dir, "DAILY-CLIENT.csv")
+
+        run_datetime = datetime.now().strftime("%m-%d-%Y %H:%M")
 
         try:
             with open(output_path, "w", encoding="utf-8") as f:
-                # Write header
+                # Report header section
+                f.write("Daily Client Inventory Report\n")
+                f.write(f"Client: {self.client_id}\n")
+                f.write(f"Run Date/Time,{run_datetime}\n")
+                f.write("\n")
+
+                # Column headers
                 f.write(",".join(self.headers) + "\n")
 
-                # Write rows
+                # Data rows
                 for r in rows:
                     f.write(",".join(str(x) for x in r) + "\n")
 
@@ -79,5 +89,5 @@ class FCDailyClientReportConverterGet:
 
 # Example usage
 if __name__ == "__main__":
-    converter = FCDailyClientReportConverterGet()
-    converter.convert("adjustments.json", "output")
+    converter = FCDailyClientReportConverterGet(client_id="357")
+    converter.convert("inventory.json", "output")

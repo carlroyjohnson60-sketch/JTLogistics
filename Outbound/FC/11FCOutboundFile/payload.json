@@ -1,7 +1,9 @@
 {
+    "warehouse": "2301",
     "filters": {
         "owner": "JTL Test",
-        "completed_from": "2025-10-17T00:00:00.000Z",
-        "completed_to": "2025-12-25T23:59:59.999Z"
+        "project": "JTL Test",
+        "completed_from": "2025-10-21T00:00:00.000Z",
+        "completed_to": "2025-12-29T23:59:59.999Z"
     }
 }

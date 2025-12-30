@@ -165,6 +165,21 @@ partners:
           endpoint: "/api/materials/get"
           timeout: 100
 
+      12GNCOutboundFile:
+        description: "GNC outbound material get"
+        use_sftp: true
+        payload_file: "Outbound/GNC/12GNCOutboundFile/payload.json"
+        local_output_dir: "Outbound/GNC/12GNCOutboundFile/Processed"
+        output_file_name: "12_GNC_Daily_Client_with_Last_Receipt_Date_and_Pallet_Count_{datetime}.csv"
+        converter: "Outbound/GNC/12GNCOutboundFile/GNCDailyClientReportConverterGet.py"
+        sftp:
+          remote_output_dir: "/Outgoing"
+        api:
+          method: "POST"
+          endpoint: "/api/inventory/get"
+          timeout: 100
+         
+
   FC:
     sftp:
       host: "sftp.jtlogistics.com"
@@ -287,6 +302,6 @@ partners:
           remote_output_dir: "/Outgoing"
         api:
           method: "POST"
-          endpoint: "/api/inventory/adjustments/get"
+          endpoint: "/api/inventory/get"
           timeout: 100
 
